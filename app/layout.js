@@ -1,6 +1,8 @@
 import "./globals.css";
 import './styles/style.scss';
 import Header from "./components/Header";
+import Head from "next/head";
+
 
 export const metadata = {
   title: "Create Next App",
@@ -10,6 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet" />
+      </Head>
       <body>
         <Header />
         <main>
