@@ -7,6 +7,7 @@ import ScrollingText from "./components/ScrollingText";
 import Partners from "./components/Partners";
 import Article from "./components/Article";
 import Speakers from "./components/Speakers";
+import Agenda from "./components/Agenda";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       />
       <Speakers />
       <ScrollingText text={'Agenda'}/>
+      <Agenda />
     </>
   );
 }
