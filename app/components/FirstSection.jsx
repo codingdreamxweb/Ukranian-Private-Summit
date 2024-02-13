@@ -5,7 +5,7 @@ import ggg from "../assets/video/gggg.svg";
 export default function FirstSection() {
   return (
     <section className="container first-section">
-      <h1 className="h1">Ukrainian Private Equity & Venture Capital Summit</h1>
+      <h1 className="h1css h1 ">Ukrainian Private Equity & Venture Capital Summit</h1>
       <p className="subtitle">
         March 21, 2024
         <br /> <span>Google Campus Warsaw, Poland</span>{" "}
