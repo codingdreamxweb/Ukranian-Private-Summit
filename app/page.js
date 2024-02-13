@@ -6,6 +6,7 @@ import FirstSection from "./components/FirstSection";
 import ScrollingText from "./components/ScrollingText";
 import Partners from "./components/Partners";
 import Article from "./components/Article";
+import Speakers from "./components/Speakers";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
         bgcolor={'#F3EAFF'}
         img={logo1}
       />
+      <Speakers />
+      <ScrollingText text={'Agenda'}/>
     </>
   );
 }
