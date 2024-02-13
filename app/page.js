@@ -8,6 +8,8 @@ import Partners from "./components/Partners";
 import Article from "./components/Article";
 import Speakers from "./components/Speakers";
 import Agenda from "./components/Agenda";
+import Pictures from "./components/Pictures";
+import Bottom from "./components/Bottom";
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
       <Speakers />
       <ScrollingText text={'Agenda'}/>
       <Agenda />
+      <Pictures />
+      <Bottom />
     </>
   );
 }

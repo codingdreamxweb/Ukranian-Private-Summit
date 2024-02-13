@@ -278,7 +278,6 @@ body {
   }
 }
 
-
 .arrow {
   transition: all 0.3s;
 }
@@ -300,7 +299,6 @@ body {
   &:hover .arrow-up {
     transform: translateY(10px);
   }
-
 }
 
 .agenda {
@@ -351,5 +349,94 @@ body {
       display: flex;
       justify-content: space-between;
     }
+  }
+}
+
+.pictures {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  & .location {
+    font-family: $unbounded;
+    color: #BDC6D1;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  &__date {
+    font-family: $unbounded;
+    color: #21262d;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__title {
+    font-family: $unbounded;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: $main-color;
+  }
+
+  & .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.bottom {
+  color: #FFF;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  & a {
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &:hover .arrow {
+      transition: all 0.3s;
+      transform: translatex(10px);
+    }
+  }
+  &__first-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    & .date {
+      font-family: $unbounded;
+      font-size: 1.3rem;
+      margin-top: 0;
+    }
+    .link-site {
+      font-family: $unbounded;
+      font-weight: 400;
+      font-size: 0.9rem;
+    }
+    .link-text {
+      font-family: $montserrat;
+      font-weight: 300;
+      font-size: 0.6rem;
+    }
+    .link-mail {
+      font-family: $unbounded;
+      font-weight: 400;
+      font-size: 0.7rem;
+      display: inline;
+    }
+  }
+  & h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFF;
+    font-family: $unbounded;
+    margin: 10px 0;
   }
 }
