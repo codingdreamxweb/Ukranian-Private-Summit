@@ -3,12 +3,40 @@
 import Image from "next/image";
 import arrow from "@/app/assets/img/Arrow-White.svg";
 import { useState } from "react";
+import axios from "axios";
+import sendEmail from "../lib/mailer";
 
 export default function FirstSection() {
   const [modal, setModal] = useState();
   const handleOpenModel = () => {
     setModal(!modal);
   };
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [company, setCompany] = useState("");
+  const [message, setMessage] = useState("");
+
+  // const handleSubmit = async () => {
+  //   const formData = { name, company, email, message };
+
+  //   try {
+  //     await axios.post("api/contacts/", formData, {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //     });
+  //     // console.log(name, company, email, message);
+  //     setName("");
+  //     setCompany("");
+  //     setEmail("");
+  //     setMessage("");
+  //   } catch (error) {
+  //     console.log({ error });
+  //   }
+  // };
+
+
+
 
   return (
     <section className="container first-section">
@@ -50,6 +78,8 @@ export default function FirstSection() {
                   type="text"
                   id="email"
                   placeholder="Enter your Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div className="input-container">
@@ -61,6 +91,8 @@ export default function FirstSection() {
                   type="text"
                   id="name"
                   placeholder="Enter your full name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
               <div className="input-container">
@@ -72,6 +104,8 @@ export default function FirstSection() {
                   type="text"
                   id="organization"
                   placeholder="Enter your organization"
+                  value={company}
+                  onChange={(e) => setCompany(e.target.value)}
                 />
               </div>
               <div className="input-container">
@@ -92,6 +126,8 @@ export default function FirstSection() {
                   className="input"
                   type="text"
                   placeholder="Enter your answer"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
               <div className="input-container">
@@ -118,12 +154,19 @@ export default function FirstSection() {
                   <option value="no">No</option>
                 </select>
               </div>
-              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              
+            </form>
+            <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
                 <button className="button">
                   Send <Image src={arrow} />
                 </button>
               </div>
-            </form>
           </div>
           <div onClick={() => handleOpenModel()} className="overlay"></div>
         </>
