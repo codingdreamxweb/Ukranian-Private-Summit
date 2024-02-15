@@ -4,6 +4,9 @@ import Image from "next/image";
 import arrow from "@/app/assets/img/arrow-blue.svg";
 import img from '@/app/assets/img/article.png';
 import { useState } from "react";
+import localFont from 'next/font/local';
+
+const myFont = localFont({src: '../../public/unbounded.ttf'});
 
 export default function Article() {
 
@@ -17,7 +20,7 @@ export default function Article() {
   return (
     <section className="container article">
       <div className="article__text-container">
-        <h2>The war is not over yet.</h2>
+        <h2 className={myFont.className}>The war is not over yet.</h2>
         <p>
           <span>
             However, we have achieved a lot with the support of our allies and
@@ -56,7 +59,7 @@ export default function Article() {
             the EU, Great Britain, the USA and others.
           </span>
         </p>
-        <div className="active-text" onClick={(e) => setShowText(!showText)}>
+        <div className={myFont.className + ' ' + "active-text"} onClick={(e) => setShowText(!showText)}>
           {!showText ? <p>Read more </p> : <p>Show less</p>}
           <Image 
             className={("arrow") + ' ' + (showText ? 'arrow-up' : 'arrow-down') }

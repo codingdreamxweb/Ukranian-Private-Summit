@@ -6,6 +6,10 @@ import { useState } from "react";
 import axios from "axios";
 import sendEmail from "../lib/mailer";
 import fonts from '@/app/styles/fonts.module.css';
+import localFont from 'next/font/local';
+
+const myFont = localFont({src: '../../public/unbounded.ttf'});
+const myFont2 = localFont({src: '../../public/mon.ttf'});
 
 export default function FirstSection() {
   const [modal, setModal] = useState();
@@ -41,18 +45,19 @@ export default function FirstSection() {
 
   return (
     <section className="container first-section">
-      <h1 className="h1css h1 ">
+      <h1 className={myFont.className + ' ' + "h1css h1 "}>
         Ukrainian Private Equity & Venture Capital Summit
       </h1>
-      <p className="subtitle">
+      <p className={myFont.className + ' ' + "subtitle"}>
         March 21, 2024
         <br /> <span>Google Campus Warsaw, Poland</span>{" "}
       </p>
+      {/* <p className={myFont2.className + ' ' + "text"}> */}
       <p className="text">
         The EU-Ukraine Investment Bridge: a meeting place for Ukrainian and
         international investors
       </p>
-      <button onClick={() => handleOpenModel()} className="button">
+      <button onClick={() => handleOpenModel()} className={myFont.className + ' ' + "button"}>
         I want to attend <Image src={arrow} />
       </button>
       <div className="video-container">
@@ -65,7 +70,7 @@ export default function FirstSection() {
       {modal && (
         <>
           <div className="modal">
-            <h2>
+            <h2 className={myFont.className}>
               Registration for the Ukrainian
               <br /> PE&VC Summit
             </h2>
@@ -75,7 +80,7 @@ export default function FirstSection() {
                   Email <span>*</span>
                 </label>
                 <input
-                  className="input"
+                  className={myFont2.className + ' ' + "input"}
                   type="text"
                   id="email"
                   placeholder="Enter your Email"
@@ -88,7 +93,7 @@ export default function FirstSection() {
                   Full name <span>*</span>
                 </label>
                 <input
-                  className="input"
+                  className={myFont2.className + ' ' + "input"}
                   type="text"
                   id="name"
                   placeholder="Enter your full name"
@@ -101,7 +106,7 @@ export default function FirstSection() {
                   Organization <span>*</span>
                 </label>
                 <input
-                  className="input"
+                  className={myFont2.className + ' ' + "input"}
                   type="text"
                   id="organization"
                   placeholder="Enter your organization"
@@ -114,7 +119,7 @@ export default function FirstSection() {
                   Are you agree to participate at one of the panels as a
                   speaker? <span>*</span>
                 </label>
-                <select className="input" name="speaker" id="">
+                <select className={myFont2.className + ' ' + "input"} name="speaker" id="">
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
                 </select>
@@ -124,7 +129,7 @@ export default function FirstSection() {
                   If you agree, which panel would you like to participate in?{" "}
                 </label>
                 <input
-                  className="input"
+                  className={myFont2.className + ' ' + "input"}
                   type="text"
                   placeholder="Enter your answer"
                   value={message}
@@ -138,7 +143,7 @@ export default function FirstSection() {
                   <br />
                   (We will contact you to discuss the options)
                 </label>
-                <select className="input" name="speaker" id="">
+                <select className={myFont2.className + ' ' + "input"} name="speaker" id="">
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
                 </select>
@@ -150,7 +155,7 @@ export default function FirstSection() {
                   <br />
                   (We will contact you to discuss the options)
                 </label>
-                <select className="input" name="speaker" id="">
+                <select className={myFont2.className + ' ' + "input"} name="speaker" id="">
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
                 </select>
@@ -164,7 +169,7 @@ export default function FirstSection() {
                   justifyContent: "center",
                 }}
               >
-                <button className="button">
+                <button className={myFont.className + ' ' + "button"}>
                   Send <Image src={arrow} />
                 </button>
               </div>

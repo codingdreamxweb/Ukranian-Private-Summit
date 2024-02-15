@@ -9,6 +9,10 @@ import vector from "@/app/assets/img/speakers/vector.svg";
 import arrow from "@/app/assets/img/arrow-blue.svg";
 
 import { useState } from "react";
+import localFont from 'next/font/local';
+
+const myFont = localFont({src: '../../public/unbounded.ttf'});
+const myFont2 = localFont({src: '../../public/mon.ttf'});
 
 export default function Speakers() {
   const SpeakersItem = ({ img, stage, title, subtitle}) => {
@@ -19,7 +23,7 @@ export default function Speakers() {
           <Image src={vector}></Image>
           <div className="speakers__item--text">
             <p className="stage">{stage}</p>
-            <p className="name">{title}</p>
+            <p className={myFont.className + ' ' + "name"}>{title}</p>
             <p className="subtitle">{subtitle}</p>
           </div>
         </div>
@@ -109,16 +113,16 @@ export default function Speakers() {
   }
 
   return (
-    <section className="container speakers">
-      <h2>Speakers</h2>
+    <section className={"container speakers"}>
+      <h2 className={myFont.className}>Speakers</h2>
       <div className="speakers__buttons-container">
-        <button>All Speakers</button>
-        <button>Stage Name</button>
-        <button>Stage Name</button>
-        <button>Stage Name</button>
-        <button>Stage Name</button>
-        <button>Stage Name</button>
-        <button>Stage Name</button>
+        <button className={myFont2.className}>All Speakers</button>
+        <button className={myFont2.className}>Stage Name</button>
+        <button className={myFont2.className}>Stage Name</button>
+        <button className={myFont2.className}>Stage Name</button>
+        <button className={myFont2.className}>Stage Name</button>
+        <button className={myFont2.className}>Stage Name</button>
+        <button className={myFont2.className}>Stage Name</button>
       </div>
       <div className="speakers__grid-container">
         {!showText ? 
@@ -143,7 +147,7 @@ export default function Speakers() {
         }
       </div>
       <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 50}}>
-        <button className="button transparent-button" onClick={() => handleShowText()}>
+        <button className={myFont.className + ' ' + "button transparent-button"} onClick={() => handleShowText()}>
           {!showText ? 'See all' : 'Hide'}
           <div style={{transform: showText ? 'rotate(180deg)' : '', transition: 'all 0.3s'}}>
             <Image className={"arrow" + ' ' + (showText ? "arrow-down" : "arrow-up")} src={arrow} alt="arrow icon" />

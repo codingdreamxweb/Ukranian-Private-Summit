@@ -3,7 +3,7 @@ import './styles/style.scss';
 import Header from "./components/Header";
 import localFont from 'next/font/local';
 
-const myFont = localFont({src: '../public/unbounded.ttf'});
+const myFont = localFont({src: '../public/mon.ttf'});
 
 export const metadata = {
   title: "Create Next App",

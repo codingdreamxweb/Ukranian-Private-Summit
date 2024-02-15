@@ -6,6 +6,10 @@ import img3 from "@/app/assets/img/pictures/img3.png";
 import img4 from "@/app/assets/img/pictures/img4.png";
 import img5 from "@/app/assets/img/pictures/img5.png";
 
+import localFont from 'next/font/local';
+
+const myFont = localFont({src: '../../public/unbounded.ttf'});
+
 
 export default function Pictures() {
   return (
@@ -17,14 +21,14 @@ export default function Pictures() {
               <a href="" style={{cursor: 'pointer', textDecoration: 'none'}}>
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                   <Image src={location} alt="location icon"></Image>
-                  <p className="location">Location</p>
+                  <p className={myFont.className + ' ' + "location"}>Location</p>
                 </div>
-                <h2 className="pictures__title">
+                <h2 className={myFont.className + ' ' + "pictures__title"}>
                   <span>Google Campus</span>
                   <br />
                   <span>Warsaw, Poland</span>
                 </h2>
-                <p className="pictures__date">March 21, 2024</p>
+                <p className={myFont.className + ' ' + "pictures__date"}>March 21, 2024</p>
               </a>
             </div>
             <div>

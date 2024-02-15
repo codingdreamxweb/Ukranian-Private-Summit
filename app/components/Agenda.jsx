@@ -3,6 +3,10 @@
 import { useState } from "react";
 import arrow from "@/app/assets/img/arrow-blue.svg";
 import Image from "next/image";
+import localFont from 'next/font/local';
+
+const myFont = localFont({src: '../../public/unbounded.ttf'});
+const myFont2 = localFont({src: '../../public/mon.ttf'});
 
 export default function Agenda() {
   const textData = [
@@ -140,16 +144,16 @@ export default function Agenda() {
       <div className="agenda__item">
         <div className="agenda__item--inner container">
           <div className="agenda__item--text-container left">
-            <p className="time">{time}</p>
+            <p className={myFont.className + ' ' + "time"}>{time}</p>
           </div>
           <div className="agenda__item--text-container right">
-            <h3 className="title">{title}</h3>
+            <h3 className={myFont.className + ' ' + "title"}>{title}</h3>
             {description === "" ? null : (
               <p className="description">{description}</p>
             )}
             {speakers === "" ? null : (
               <p className="description">
-                <span className="speaker">Speakers</span>: {speakers}
+                <span className={myFont.className + ' ' + "speaker"}>Speakers</span>: {speakers}
               </p>
             )}
           </div>
@@ -195,7 +199,7 @@ export default function Agenda() {
         }}
       >
         <button
-          className="button transparent-button"
+          className={myFont.className + ' ' + "button transparent-button"}
           onClick={() => handleShowText()}
         >
           {!showText ? "See full timetable" : "Hide full timetable"}
