@@ -5,6 +5,7 @@ import arrow from "@/app/assets/img/Arrow-White.svg";
 import { useState } from "react";
 import axios from "axios";
 import sendEmail from "../lib/mailer";
+import fonts from '@/app/styles/fonts.module.css';
 
 export default function FirstSection() {
   const [modal, setModal] = useState();

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'main';
+  src: url('/public/unbounded.ttf') format('ttf');
+}
+
+.unbounded {
+  font-family: 'main', sans-serif;
+  color: red;
+}
