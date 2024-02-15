@@ -18,6 +18,7 @@ export default function Home() {
       <ScrollingText text={'Summit Organisers'}/>
       <Partners 
         bgcolor={'#E2F5EE'}
+        id={'partners-section'}
       />
       <Article />
       <ScrollingText text={'Partners and Sponsors'}/>
@@ -25,9 +26,9 @@ export default function Home() {
         bgcolor={'#F3EAFF'}
         img={logo1}
       />
-      <Speakers />
+      <Speakers id={'speakers-section'}/>
       <ScrollingText text={'Agenda'}/>
-      <Agenda />
+      <Agenda id={'agenda-section'}/>
       <Pictures />
       <Bottom />
     </>

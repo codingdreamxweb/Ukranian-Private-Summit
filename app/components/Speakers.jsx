@@ -14,7 +14,7 @@ import localFont from 'next/font/local';
 const myFont = localFont({src: '../../public/unbounded.ttf'});
 const myFont2 = localFont({src: '../../public/mon.ttf'});
 
-export default function Speakers() {
+export default function Speakers({ id }) {
   const SpeakersItem = ({ img, stage, title, subtitle}) => {
     return (
       <div className="speakers__item">
@@ -113,7 +113,7 @@ export default function Speakers() {
   }
 
   return (
-    <section className={"container speakers"}>
+    <section className={"container speakers"} id={id}>
       <h2 className={myFont.className}>Speakers</h2>
       <div className="speakers__buttons-container">
         <button className={myFont2.className}>All Speakers</button>

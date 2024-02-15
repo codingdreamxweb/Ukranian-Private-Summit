@@ -8,7 +8,7 @@ import localFont from 'next/font/local';
 const myFont = localFont({src: '../../public/unbounded.ttf'});
 const myFont2 = localFont({src: '../../public/mon.ttf'});
 
-export default function Agenda() {
+export default function Agenda({ id }) {
   const textData = [
     {
       time: "9.00",
@@ -169,7 +169,7 @@ export default function Agenda() {
   }
 
   return (
-    <section className="agenda">
+    <section className="agenda" id={id}>
       {!showText ? 
         (textData.slice(0, 5).map((item, key) => (
           <Item
