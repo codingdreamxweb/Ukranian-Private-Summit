@@ -18,7 +18,7 @@ export default function Pictures() {
         <div style={{ display: "flex", gap: 20 }}>
           <div className="text-container">
             <div>
-              <a href="" style={{cursor: 'pointer', textDecoration: 'none'}}>
+              <a href="https://maps.app.goo.gl/RYeVwvewWd2Mz9T86" style={{cursor: 'pointer', textDecoration: 'none'}}>
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                   <Image src={location} alt="location icon"></Image>
                   <p className={myFont.className + ' ' + "location"}>Location</p>

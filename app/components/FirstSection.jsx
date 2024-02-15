@@ -3,10 +3,12 @@
 import Image from "next/image";
 import arrow from "@/app/assets/img/Arrow-White.svg";
 import { useState } from "react";
+
 import axios from "axios";
 import sendEmail from "../lib/mailer";
 import fonts from '@/app/styles/fonts.module.css';
 import localFont from 'next/font/local';
+import ReactPlayer from "react-player";
 
 const myFont = localFont({src: '../../public/unbounded.ttf'});
 const myFont2 = localFont({src: '../../public/mon.ttf'});
@@ -42,7 +44,8 @@ export default function FirstSection() {
 
 
 
-
+ const videoSrc = '../../public/flag.mp4';
+ const videoSrc1 = '../../public/Video.mp4';
   return (
     <section className="container first-section">
       <h1 className={myFont.className + ' ' + "h1css h1 "}>
@@ -62,9 +65,14 @@ export default function FirstSection() {
       </button>
       <div className="video-container">
         <video className="video" loop controls preload="auto" autoPlay>
-          <source src="../assets/flag.mp4" type="video/mp4" />
+          <source src="../../public/Video.mp4" type="video/mp4" />
         </video>
-        {/* <video className="video" loop controls autoPlay src='./flag.mp4'></video> */}
+        {/* <ReactPlayer 
+          url={videoSrc}
+          loop= {true} 
+          controls={true}
+        /> */}
+      {/* <video className="video" loop controls autoPlay src={video}></video> */}
       </div>
 
       {modal && (

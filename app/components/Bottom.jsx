@@ -16,16 +16,16 @@ export default function Bottom(params) {
           <Image src={logo} alt="logo"></Image>
           <p className={myFont.className + ' ' + "date"}>March 21, 2024<br/> at Google Campus Warsaw, Poland</p>
           <div className="link">
-            <a className={myFont.className + ' ' + "link-site"} href="">
+            <a className={myFont.className + ' ' + "link-site"} target="_blank" href="https://uvca.eu/">
             Visit UVCA summit organiser website
             <Image className="arrow" src={arrow} alt="arrow"></Image>
             </a>
-            <p className="link-text">If you are interested in promoting your company / organization<br/> at the Summit, please contact us - <a className={myFont.className + ' ' + "link-mail"} href="">p.relations@uvca.eu</a></p>
+            <p className="link-text">If you are interested in promoting your company / organization<br/> at the Summit, please contact us - <a className={myFont.className + ' ' + "link-mail"} href="mailto:p.relations@uvca.eu">p.relations@uvca.eu</a></p>
           </div>
         </div>
         <div style={{display: 'flex', alignItems: 'center', gap: 20}}>
-          <a href=""><Image src={facebook} alt="facebook icon"></Image></a>
-          <a href=""><Image src={linkedin} alt="linkedin icon"></Image></a>
+          <a href="https://www.facebook.com/uvca.eu"><Image src={facebook} alt="facebook icon"></Image></a>
+          <a href="https://www.linkedin.com/company/ukrainian-venture-capital-and-private-equity-association-uvca-/"><Image src={linkedin} alt="linkedin icon"></Image></a>
         </div>
         <h2 className={myFont.className}>SEE YOU AT THE SUMMIT!</h2>
       </div>
