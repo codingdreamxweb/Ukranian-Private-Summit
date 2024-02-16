@@ -7,9 +7,9 @@ export default function Partners ({ bgcolor, img, id }) {
   return (
     <section className="partners" id={id}>
       <div className="container partners__inner" style={{backgroundColor: bgcolor}}>
-        <div><Image src={logo1} alt="UVCA Logo"/></div>
-        <div><Image src={logo2} alt="PSIK Logo"/></div>
-        <div><Image src={logo3} alt="RZM Logo"/></div>
+        <div className='partners__inner--img-container'><Image src={logo1} alt="UVCA Logo"/></div>
+        <div className='partners__inner--img-container'><Image src={logo2} alt="PSIK Logo"/></div>
+        <div className='partners__inner--img-container'><Image src={logo3} alt="RZM Logo"/></div>
         {img && <div><Image src={img}/></div>}
       </div>
     </section>

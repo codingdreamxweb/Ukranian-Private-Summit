@@ -5,7 +5,7 @@ import arrow from "@/app/assets/img/Arrow-White.svg";
 import { useState } from "react";
 
 import axios from "axios";
-import sendEmail from "../lib/mailer";
+// import sendEmail from "../lib/mailer";
 import localFont from 'next/font/local';
 
 const myFont = localFont({src: '../../public/unbounded.ttf'});
@@ -21,24 +21,24 @@ export default function FirstSection() {
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
 
-  // const handleSubmit = async () => {
-  //   const formData = { name, company, email, message };
+  const handleSubmit = async () => {
+    const formData = { name, company, email, message };
 
-  //   try {
-  //     await axios.post("api/contacts/", formData, {
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //     });
-  //     // console.log(name, company, email, message);
-  //     setName("");
-  //     setCompany("");
-  //     setEmail("");
-  //     setMessage("");
-  //   } catch (error) {
-  //     console.log({ error });
-  //   }
-  // };
+    try {
+      await axios.post("api/contacts/", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      console.log(name, company, email, message);
+      setName("");
+      setCompany("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      console.log({ error });
+    }
+  };
   return (
     <section className="container first-section">
       <h1 className={myFont.className + ' ' + "h1css h1 "}>
@@ -164,7 +164,7 @@ export default function FirstSection() {
                   justifyContent: "center",
                 }}
               >
-                <button className={myFont.className + ' ' + "button"}>
+                <button onClick={handleSubmit} className={myFont.className + ' ' + "button"}>
                   Send <Image src={arrow} />
                 </button>
               </div>

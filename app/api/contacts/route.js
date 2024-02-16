@@ -1,39 +1,40 @@
-// import { transporter } from "@/app/lib/mailer";
-// import { NextResponse } from "next/server";
+import { transporter } from "@/app/lib/mailer";
+import { NextResponse } from "next/server";
 
-// export async function POST(req, res) {
+export async function POST(req, res) {
 
-//   const data = await req.json();
+  const data = await req.json();
 
-//   const { name, company, email, message } = data;
+  const { name, company, email, message } = data;
 
-//   await transporter.sendMail(
-//     {
-//       from: email,
-//       to: "vyacheslav.k@dreamxweb.com",
-//       text: `
-//           Name: ${name}
-//           Email: ${email}
-//           Company: ${company}
-//           Message: ${message}
-//         `,
-//     },
-//     function (error, info) {
-//       if (error) {
-//         console.log(error);
-//         res.status(500).send({ error });
-//         // res.status(500).json({ error: 'Error sending email' });
-//       } else {
-//         const message = `Email sent: ${info.response}`;
-//         console.log(message);
-//         res.status(200).send(message);
-//         // res.status(200).json({ message });
-//       }
-//     }
-//   );
+  await transporter.sendMail(
+    {
+      from: email,
+      // to: "vyacheslav.k@dreamxweb.com",
+      to: "events@uvca.eu",
+      text: `
+          Name: ${name}
+          Email: ${email}
+          Company: ${company}
+          Message: ${message}
+        `,
+    },
+    function (error, info) {
+      if (error) {
+        console.log(error);
+        NextResponse.json({message: 'test'}, { status: 500 })
+        // res.status(500).json({ error: 'Error sending email' });
+      } else {
+        const message = `Email sent: ${info.response}`;
+        console.log(message);
+        NextResponse.json({message: 'test'}, { status: 200 })
+        // res.status(200).json({ message });
+      }
+    }
+  );
 
-//   return NextResponse.json({ res });
-// }
+  return NextResponse.json({ res });
+}
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // import { senderEmail, transporter } from "@/app/lib/mailer";
@@ -76,7 +77,8 @@
 //     })
 
 //     return NextResponse.json({ res });
-"houy ughq jcei catn"
+
 // }
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
+"houy ughq jcei catn"

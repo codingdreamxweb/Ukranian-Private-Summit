@@ -14,6 +14,15 @@ $text-color: #484d54;
 
 html {
   font-size: 20px;
+  @media (max-width: 1400px) {
+    font-size: 16px;
+  }
+  @media (max-width: 1200px) {
+    font-size: 10px;
+  }
+  @media (max-width: 1100px) {
+    font-size: 10px;
+  }
 }
 body {
   font-size: 0.8rem;
@@ -43,7 +52,12 @@ body {
   justify-content: space-between;
   background-color: #e0eeff;
   border-radius: 1rem;
-  padding: 0.5rem 2.5rem;
+  padding: 0.5rem 2.5rem; 
+  & img {
+    @media (max-width: 900px) {
+      width: 90px;
+    }
+  }
   &__nav-list {
     display: flex;
     align-items: center;
@@ -107,9 +121,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    // .video {
-    //   width: 120%;
-    // }
+    .video {
+      @media (max-width: 800px) {
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -136,18 +152,39 @@ body {
     justify-content: space-around;
     border-radius: 26px;
     padding: 40px 0;
+    @media (max-width: 900px) {
+      padding: 2px 0;
+    }
+
+    &--img-container {
+      @media (max-width: 1300px) {
+        width: 30%;
+      }
+    }
   }
   & img {
     max-width: 400px;
+    @media (max-width: 1200px){
+      width: 100%;
+    }
+    @media (max-width: 800px){
+      width: 80%;
+    }
   }
 }
 
 .article {
   display: flex;
   justify-content: space-between;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
   &__text-container {
     width: 50%;
     margin-top: 6rem;
+    @media (max-width: 700px) {
+      width: 100%;
+    }
     & h2 {
       //font-family: $unbounded;
       color: $main-color;
@@ -162,10 +199,31 @@ body {
   }
   &__img-container {
     width: 50%;
+    @media (max-width: 700px) {
+      width: 100%;
+    }
     & img {
       width: 120%;
       height: 690px;
       margin-left: -185px;
+      @media (max-width: 1400px) {
+        height: 550px;
+      }
+      @media (max-width: 1200px) {
+        height: 400px;
+        margin-left: -60px;
+        width: 100%;
+      }
+      @media (max-width: 900px) {
+        height: 300px;
+        margin-left: -60px;
+        width: 100%;
+      }
+      @media (max-width: 700px) {
+        height: unset;
+        margin-left: 0;
+        width: 100%;
+      }
     }
   }
   .hide-text {
@@ -212,10 +270,14 @@ body {
   }
 
   &__buttons-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     align-items: center;
     justify-content: center;
     gap: 10px;
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
 
     & button {
       //font-family: $montserrat;
@@ -241,21 +303,53 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-top: 20px;
+    @media (max-width: 900px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
   &__item {
     border-radius: 10px;
     overflow: hidden;
     width: fit-content;
+    @media (max-width: 1400px) {
+      overflow: unset;
+      width: unset;
+    }
+
+    & img {
+      @media (max-width: 1400px){
+        width: 100%;
+        height: 100%;
+      }
+    }
 
     &--text {
       position: absolute;
       top: 0;
       left: 20px;
+      @media (max-width: 1200px) {
+        top: 10px;
+      }
+      @media (max-width: 500px) {
+        top: 6px;
+      }
+      @media (max-width: 450px) {
+        left: 6px;
+      }
 
       & .stage {
         //font-family: $montserrat;
         color: $main-color;
         font-weight: 500;
+        @media (max-width: 1300px) {
+          margin-bottom: 6px;
+        }
+        @media (max-width: 500px) {
+          margin-bottom: 2px;
+        }
       }
       & .name {
         //font-family: $unbounded;
@@ -270,12 +364,33 @@ body {
         color: #556986;
         font-size: 0.8rem;
         font-weight: 400;
+        @media (max-width: 1300px) {
+          margin-top: 6px;
+        }
+        @media (max-width: 500px) {
+          margin-top: 2px;
+        }
       }
 
     }
     &--text-container {
       margin-top: -60px;
       position: relative;
+      @media (max-width: 1400px) {
+        margin-top: -87px;
+      }
+      @media (max-width: 1200px) {
+        margin-top: -70px;
+      }
+      @media (max-width: 1000px) {
+        margin-top: -60px;
+      }
+
+      & img {
+        @media (max-width: 1400px) {
+          width: 100%;
+        }
+      }
     }
   }
 }
@@ -362,6 +477,37 @@ body {
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
+  @media (max-width: 800px) {
+    display: grid;
+  }
+
+  & img {
+    width: 100%;
+
+    @media (max-width: 800px) {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &__location-container {
+    @media (max-width: 1400px) {
+      max-width: 50%;
+    }
+    @media (max-width: 800px) {
+      max-width: unset;
+      width: 100%;
+    }
+  }
+  &__right-container {
+    @media (max-width: 1400px) {
+      max-width: 50%;
+    }
+    @media (max-width: 800px) {
+      max-width: unset;
+      width: 100%;
+    }
+  }
 
   & .location {
     //font-family: $unbounded;
@@ -397,6 +543,15 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    @media (max-width: 800px) {
+      justify-content: center;
+    }
+  }
+
   & a {
     text-decoration: none;
     color: #FFF;
@@ -413,6 +568,10 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    @media (max-width: 800px) {
+      flex-direction: column;
+      align-items: center;
+    }
     & .date {
       //font-family: $unbounded;
       font-size: 1.3rem;
@@ -468,6 +627,9 @@ body {
   transform: translate(-50%, 0);
   z-index: 12;
   position: absolute;
+  @media (max-width: 900px) {
+    width: 60%;
+  }
 
   & h2 {
     color: $main-color;
