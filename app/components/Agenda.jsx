@@ -89,6 +89,13 @@ export default function Agenda({ id }) {
       speakers: "",
     },
     {
+      time: "13.20",
+      title: "Venture Capital panel.",
+      description:
+        "Current situation, trends and opportunities. Is it the best moment to “buy a ticket”?",
+      speakers: "",
+    },
+    {
       time: "14.00",
       title: "Lunch",
       description: "",

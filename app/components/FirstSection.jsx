@@ -20,9 +20,12 @@ export default function FirstSection() {
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
+  const [speakerAgreement, setSpeakerAgreement] = useState("yes");
+  const [supportAgreement, setSupportAgreement] = useState("yes");
+  const [promotionAgreement, setPromotionAgreement] = useState("yes");
 
   const handleSubmit = async () => {
-    const formData = { name, company, email, message };
+    const formData = { name, company, email, message, speakerAgreement, supportAgreement, promotionAgreement };
 
     try {
       await axios.post("api/contacts/", formData, {
@@ -30,11 +33,14 @@ export default function FirstSection() {
           "Content-Type": "application/json",
         },
       });
-      console.log(name, company, email, message);
+      console.log(name, company, email, message, speakerAgreement, supportAgreement, promotionAgreement);
       setName("");
       setCompany("");
       setEmail("");
       setMessage("");
+      setSpeakerAgreement("");
+      setPromotionAgreement("");
+      setSupportAgreement("");
     } catch (error) {
       console.log({ error });
     }
@@ -114,7 +120,13 @@ export default function FirstSection() {
                   Are you agree to participate at one of the panels as a
                   speaker? <span>*</span>
                 </label>
-                <select className={myFont2.className + ' ' + "input"} name="speaker" id="">
+                <select 
+                  className={myFont2.className + ' ' + "input"} 
+                  name="speaker" 
+                  id=""
+                  value={speakerAgreement}
+                  onChange={(e) => setSpeakerAgreement(e.target.value)}
+                >
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
                 </select>
@@ -138,7 +150,13 @@ export default function FirstSection() {
                   <br />
                   (We will contact you to discuss the options)
                 </label>
-                <select className={myFont2.className + ' ' + "input"} name="speaker" id="">
+                <select 
+                  className={myFont2.className + ' ' + "input"} 
+                  name="speaker" 
+                  id=""
+                  value={supportAgreement}
+                  onChange={(e) => setSupportAgreement(e.target.value)}
+                >
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
                 </select>
@@ -150,7 +168,13 @@ export default function FirstSection() {
                   <br />
                   (We will contact you to discuss the options)
                 </label>
-                <select className={myFont2.className + ' ' + "input"} name="speaker" id="">
+                <select 
+                  className={myFont2.className + ' ' + "input"} 
+                  name="speaker" 
+                  id=""
+                  value={promotionAgreement}
+                  onChange={(e) => setPromotionAgreement(e.target.value)}
+                >
                   <option value="yes">Yes</option>
                   <option value="no">No</option>
                 </select>

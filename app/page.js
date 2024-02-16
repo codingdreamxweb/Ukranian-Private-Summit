@@ -18,13 +18,13 @@ export default function Home() {
       <ScrollingText text={'Summit Organisers'}/>
       <Partners 
         bgcolor={'#E2F5EE'}
-        id={'partners-section'}
       />
       <Article />
       <ScrollingText text={'Partners and Sponsors'}/>
       <Partners 
         bgcolor={'#F3EAFF'}
         img={logo1}
+        id={'partners-section'}
       />
       <Speakers id={'speakers-section'}/>
       <ScrollingText text={'Agenda'}/>

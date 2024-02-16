@@ -20,7 +20,7 @@ export default function Bottom(params) {
             Visit UVCA summit organiser website
             <Image className="arrow" src={arrow} alt="arrow"></Image>
             </a>
-            <p className="link-text">If you are interested in promoting your company / organization<br/> at the Summit, please contact us - <a className={myFont.className + ' ' + "link-mail"} href="mailto:p.relations@uvca.eu">p.relations@uvca.eu</a></p>
+            <p className="link-text">If you are interested in promoting your company / organization<br className="br"/> at the Summit, please contact us - <a className={myFont.className + ' ' + "link-mail"} href="mailto:p.relations@uvca.eu">p.relations@uvca.eu</a></p>
           </div>
         </div>
         <div className="bottom__social" style={{display: 'flex', alignItems: 'center', gap: 20}}>

@@ -670,3 +670,9 @@ body {
   }
 
 }
+
+.br {
+  @media (max-width: 1400px) {
+    display: none;
+  }
+}
