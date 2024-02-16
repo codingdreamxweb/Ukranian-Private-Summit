@@ -57,8 +57,8 @@ export default function FirstSection() {
         I want to attend <Image src={arrow} />
       </button>
       <div className="video-container">
-        <video className="video" loop preload="auto" autoPlay>
-          <source src="video.mp4" type="video/mp4" />
+        <video className="video" src="video.mp4"  loop preload="auto" autoPlay>
+          {/* <source src="video.mp4" type="video/mp4" /> */}
         </video>
       </div>
 
