@@ -54,7 +54,6 @@ export default function FirstSection() {
         March 21, 2024
         <br /> <span>Google Campus Warsaw, Poland</span>{" "}
       </p>
-      {/* <p className={myFont2.className + ' ' + "text"}> */}
       <p className="text">
         The EU-Ukraine Investment Bridge: a meeting place for Ukrainian and
         international investors
@@ -64,7 +63,6 @@ export default function FirstSection() {
       </button>
       <div className="video-container">
         <video className="video" src="video.mp4" loop preload="auto" muted autoPlay>
-          {/* <source src="video.mp4" type="video/mp4" /> */}
         </video>
       </div>
 

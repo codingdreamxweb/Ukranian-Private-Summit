@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-export const senderEmail = "slvkubrak@gmail.com";
+export const senderEmail = "events@uvca.eu";
 
 export const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
@@ -7,7 +7,8 @@ export const transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     user: senderEmail,
-    pass: "houy ughq jcei catn",
+    // pass: "houy ughq jcei catn",
+    pass: "iapx sfve ocen vrvx"
   }
 })
 

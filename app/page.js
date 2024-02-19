@@ -1,6 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 import logo1 from '@/app/assets/img/partners/dreamX.svg';
 import FirstSection from "./components/FirstSection";
 import ScrollingText from "./components/ScrollingText";

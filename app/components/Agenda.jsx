@@ -6,7 +6,6 @@ import Image from "next/image";
 import localFont from 'next/font/local';
 
 const myFont = localFont({src: '../../public/unbounded.ttf'});
-const myFont2 = localFont({src: '../../public/mon.ttf'});
 
 export default function Agenda({ id }) {
   const textData = [
