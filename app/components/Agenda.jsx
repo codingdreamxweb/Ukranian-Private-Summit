@@ -32,28 +32,42 @@ export default function Agenda({ id }) {
           </span>
         </>
       ),
-      speakers: "",
+      speakers: <>
+        <br/>
+        <span>Moderator: A.Kolodyuk (UVCA)</span><br/>
+        <span>Ukraine’s government representatives:</span><br/>
+        <span>Poland’s government representatives: Pawel Kowal,</span><br/>
+        <span>PSIK Małgorzata Bobrowska;</span><br/>
+        <span>Google Campus: Michal Kramarz,</span><br/>
+        <span>Black Rock</span><br/>
+        <span>Freshfields London (online)</span><br/>
+        <span>RZM (Paweł Rymarz, managing partner)</span>
+      </>,
     },
     {
       time: "10.00",
-      title: "Government and Institutional investors.",
+      title: "Institutional investors",
       description:
-        "A brief overview of existing institutional funding programs, investment protection and risk reduction (insurance, targeted funding, blended finance, etc.).",
+        "A brief overview of existing institutional funding programs for business and funds, investment protection and risk reduction (insurance, targeted funding, blended finance, etc.)",
       speakers: "Darrell Steward, Ronald Richards, Brooklyn Simmons.",
     },
     {
       time: "10.45",
-      title: "PE panel. Cases, trends, forecasts.",
+      title: "PE panel (discussion)",
       description: (
         <>
           <span>
-            Fundraising environment - predictions for the rest of 2024.
+            Cases, trends, forecasts.
           </span>
           <br />
-          <span>Co-transactions with Ukrainian stakeholders</span>
+          <span>Fundraising environment - predictions for the rest of 2024</span>
           <br />
           <span>
-            Post-war investment opportunities from a funds perspective.
+          Co-transactions with Ukrainian stakeholders.
+          </span>
+          <br/>
+          <span>
+          Post-war investment opportunities from a funds perspective.
           </span>
         </>
       ),
@@ -69,14 +83,20 @@ export default function Agenda({ id }) {
       time: "12.00",
       title: "How to properly invest in Ukrainian business during the war?",
       description:
-        "Cases of success/ failed cases in Ukrainian business under martial law.",
+        <>
+          <span>Cases of success/ failed cases in business under martial law.</span>
+          <br/>
+          <span>Conclusions and best practices.</span>
+        </>,
       speakers: "",
     },
     {
       time: "12.40",
-      title: "M&A panel. Cases, trends, forecasts.",
+      title: " M&A panel (discussion)",
       description: (
         <>
+          <span>Cases, trends, forecasts.</span>
+          <br/>
           <span>
             Priority industries of interest for investments in Ukraine,
             opportunities for cooperation. 
@@ -89,7 +109,7 @@ export default function Agenda({ id }) {
     },
     {
       time: "13.20",
-      title: "Venture Capital panel.",
+      title: "Venture Capital panel (discussion)",
       description:
         "Current situation, trends and opportunities. Is it the best moment to “buy a ticket”?",
       speakers: "",
@@ -114,14 +134,14 @@ export default function Agenda({ id }) {
     },
     {
       time: "15.40",
-      title: "Ukrainian Investment community.",
+      title: "Ukrainian Investment community (pitch)",
       description:
-        "Presentations of Ukrainian investment funds seeking for attracting investments from international LP’s, their portfolio and strategies.",
+        "Presentations of Ukrainian investment funds seeking for attracting investments from Polish and EU investors, their portfolio and strategies",
       speakers: "Darrell Steward, Ronald Richards, Brooklyn Simmons.",
     },
     {
       time: "16.20",
-      title: "Ukrainian Fund of Funds.",
+      title: "Ukrainian Fund of Funds (pitch)",
       description: (
         <>
           <span>Presentation of the Fund, its goal and strategy.</span>
@@ -133,8 +153,8 @@ export default function Agenda({ id }) {
     },
     {
       time: "16.50",
-      title: 'Wrapping up, closing remarks, "call to action".',
-      description: "",
+      title: 'Wrapping up',
+      description: `Closing remarks, "call to action".`,
       speakers: "",
     },
     {

@@ -19,13 +19,13 @@ export default function FirstSection() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
-  const [message, setMessage] = useState("");
-  const [speakerAgreement, setSpeakerAgreement] = useState("yes");
+  // const [message, setMessage] = useState("");
+  // const [speakerAgreement, setSpeakerAgreement] = useState("yes");
   const [supportAgreement, setSupportAgreement] = useState("yes");
   const [promotionAgreement, setPromotionAgreement] = useState("yes");
 
   const handleSubmit = async () => {
-    const formData = { name, company, email, message, speakerAgreement, supportAgreement, promotionAgreement };
+    const formData = { name, company, email, supportAgreement, promotionAgreement };
 
     try {
       await axios.post("api/contacts/", formData, {
@@ -33,12 +33,10 @@ export default function FirstSection() {
           "Content-Type": "application/json",
         },
       });
-      console.log(name, company, email, message, speakerAgreement, supportAgreement, promotionAgreement);
+      console.log(name, company, email, supportAgreement, promotionAgreement);
       setName("");
       setCompany("");
       setEmail("");
-      setMessage("");
-      setSpeakerAgreement("");
       setPromotionAgreement("");
       setSupportAgreement("");
     } catch (error) {
@@ -111,34 +109,6 @@ export default function FirstSection() {
                   placeholder="Enter your organization"
                   value={company}
                   onChange={(e) => setCompany(e.target.value)}
-                />
-              </div>
-              <div className="input-container">
-                <label className="label">
-                  Are you agree to participate at one of the panels as a
-                  speaker? <span>*</span>
-                </label>
-                <select 
-                  className={myFont2.className + ' ' + "input"} 
-                  name="speaker" 
-                  id=""
-                  value={speakerAgreement}
-                  onChange={(e) => setSpeakerAgreement(e.target.value)}
-                >
-                  <option value="yes">Yes</option>
-                  <option value="no">No</option>
-                </select>
-              </div>
-              <div className="input-container">
-                <label className="label">
-                  If you agree, which panel would you like to participate in?{" "}
-                </label>
-                <input
-                  className={myFont2.className + ' ' + "input"}
-                  type="text"
-                  placeholder="Enter your answer"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
               <div className="input-container">

@@ -5,7 +5,7 @@ export async function POST(req, res) {
 
   const data = await req.json();
 
-  const { name, company, email, message, speakerAgreement, supportAgreement, promotionAgreement } = data;
+  const { name, company, email, supportAgreement, promotionAgreement } = data;
 
   await transporter.sendMail(
     {
@@ -15,8 +15,6 @@ export async function POST(req, res) {
           Name: ${name}
           Email: ${email}
           Company: ${company}
-          Message: ${message}
-          Are you agree to participate at one of the panels as a speaker? ${speakerAgreement}
           Would you like to support the Summit as a sponsor, partner or in any other way? ${supportAgreement}
           Would you like to promote your company / organization during the Summit? ${promotionAgreement}
         `,
@@ -41,8 +39,6 @@ export async function POST(req, res) {
           Name: ${name}
           Email: ${email}
           Company: ${company}
-          Message: ${message}
-          Are you agree to participate at one of the panels as a speaker? ${speakerAgreement}
           Would you like to support the Summit as a sponsor, partner or in any other way? ${supportAgreement}
           Would you like to promote your company / organization during the Summit? ${promotionAgreement}
         `,
