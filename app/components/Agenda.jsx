@@ -45,11 +45,11 @@ export default function Agenda({ id }) {
       speakers: <>
       <br/>
         <span>Barbara Nowakowska, PSIK (moderator)</span><br/>
-        <span>Joel Wejsberg, EIB</span><br/>
+        <span>Joel Wajsberg, EIB</span><br/>
         <span>Piotr Matczuk, IFC</span><br/>
         <span>Elizabeth Falcetti, EBRD</span><br/>
         <span>Eliza Kruczkowska, PFR</span><br/>
-        <span>AgnieszkaFalkowska, BGK</span>
+        <span>Agnieszka Falkowska, BGK</span>
       </>,
     },
     {
