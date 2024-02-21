@@ -275,8 +275,12 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    @media (max-width: 980px) {
+      gap: 4px;
+    }
     @media (max-width: 600px) {
       grid-template-columns: repeat(4, 1fr);
+
     }
 
     & button {
@@ -339,7 +343,7 @@ body {
         top: 10px;
       }
       @media (max-width: 500px) {
-        top: 6px;
+        top: -1px;
       }
       @media (max-width: 450px) {
         left: 6px;
@@ -353,7 +357,7 @@ body {
         margin-bottom: 4px;
         font-size: 0.7rem;
         @media (max-width: 1300px) {
-          margin-bottom: 6px;
+          margin-bottom: 2px;
         }
         @media (max-width: 500px) {
           margin-bottom: 2px;
@@ -378,6 +382,9 @@ body {
         }
         @media (max-width: 500px) {
           margin-top: 2px;
+        }
+        @media (max-width: 500px) {
+          margin: 0;
         }
       }
 
