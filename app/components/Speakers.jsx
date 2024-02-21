@@ -67,7 +67,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Jacek_Chwedoruk,
-      stage: "M&A",
+      stage: "M&A panel",
       title: "Jacek Chwedoruk",
       subtitle: "Rotschild&Co., Head of Rothschild & Co Poland",
       linkedin: 'https://www.linkedin.com/in/jacek-chwedoruk/',
@@ -137,7 +137,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Anna_Zorya,
-      stage: "M&A",
+      stage: "M&A panel",
       title: "Anna Zorya",
       subtitle: "RZM, Attorney-in-law",
       linkedin: 'https://www.linkedin.com/in/anna-zorya-1a253320/',
