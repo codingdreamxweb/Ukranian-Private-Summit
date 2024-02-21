@@ -342,6 +342,9 @@ body {
       @media (max-width: 1200px) {
         top: 10px;
       }
+      @media (max-width: 980px) {
+        top: -1px;
+      }
       @media (max-width: 500px) {
         top: -1px;
       }
