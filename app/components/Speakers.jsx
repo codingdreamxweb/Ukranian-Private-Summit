@@ -116,7 +116,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Anna_Wnuk,
-      stage: "PE",
+      stage: "PE panel",
       title: "Anna Wnuk",
       subtitle: "PSIK, Managing director",
       linkedin: 'https://www.linkedin.com/in/anna-wnuk-b58583152/',
