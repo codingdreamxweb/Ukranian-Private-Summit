@@ -1,10 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import img from "@/app/assets/img/speakers/image.png";
-import img2 from "@/app/assets/img/speakers/image2.png";
-import img3 from "@/app/assets/img/speakers/image3.png";
-import img4 from "@/app/assets/img/speakers/image4.png";
+import Kateryna_Glazkova from "@/app/assets/img/speakers/Kateryna_Glazkova.jpg";
+import Jacek_Chwedoruk from "@/app/assets/img/speakers/Jacek_Chwedoruk.jpg";
+import Tatiana_Goncharenko from "@/app/assets/img/speakers/Tatiana_Goncharenko.jpg";
+import Mikolaj_Firlej from "@/app/assets/img/speakers/Mikolaj_Firlej.jpg";
+import Dmytro_Kuzmenko from "@/app/assets/img/speakers/Dmytro_Kuzmenko.jpg";
+import Roman_Nikitov from "@/app/assets/img/speakers/Roman_Nikitov.jpg";
+import Ruslan_Furtas from "@/app/assets/img/speakers/Ruslan_Furtas.jpg";
+import Andriy_Kolodiuk from "@/app/assets/img/speakers/Andriy_Kolodiuk.jpg";
+import Anna_Wnuk from "@/app/assets/img/speakers/Anna_Wnuk.jpeg";
+import Barbara_Nowakowska from "@/app/assets/img/speakers/Barbara_Nowakowska.jpg";
+import Lukasz_Wawak from "@/app/assets/img/speakers/Lukasz_Wawak.jpg";
+import Anna_Zorya from "@/app/assets/img/speakers/Anna_Zorya.jpg";
+import Lukasz_Gasiński from "@/app/assets/img/speakers/Lukasz_Gasiński.jpg";
 import vector from "@/app/assets/img/speakers/vector.svg";
 import arrow from "@/app/assets/img/arrow-blue.svg";
 
@@ -27,7 +36,7 @@ export default function Speakers({ id }) {
     setCurrentStage(stage);
   }
 
-  const SpeakersItem = ({ img, stage, title, subtitle}) => {
+  const SpeakersItem = ({ img, stage, title, subtitle, linkedin}) => {
     return (
       <div className="speakers__item">
         <Image className="speakers__item--speaker-img" src={img} alt="speakers picture" />
@@ -37,6 +46,11 @@ export default function Speakers({ id }) {
             <p className="stage">{stage}</p>
             <p className={myFont.className + ' ' + "name"}>{title}</p>
             <p className="subtitle">{subtitle}</p>
+            <div>
+              <a href={linkedin} style={{display: 'flex', gap: 10, alignItems: 'center', textDecoration: 'none', color: '#035FCC', cursor: 'pointer'}}>
+              Linkedin <Image width={12} style={{transform: 'rotate(-90deg)', width: 12}} src={arrow}></Image>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -45,81 +59,99 @@ export default function Speakers({ id }) {
 
   const gridItemData = [
     {
-      img: img,
+      img: Kateryna_Glazkova,
       stage: "Institutional investors",
-      title: "Brooklyn Simmons",
-      subtitle: "Company name, CEO",
+      title: "Kateryna Glazkova",
+      subtitle: "SUP, CEO",
+      linkedin: 'https://www.linkedin.com/in/kateryna-glazkova-b801102a6/',
     },
     {
-      img: img2,
+      img: Jacek_Chwedoruk,
+      stage: "M&A",
+      title: "Jacek Chwedoruk",
+      subtitle: "Rotschild&Co., Head of Rothschild & Co Poland",
+      linkedin: 'https://www.linkedin.com/in/jacek-chwedoruk/',
+    },
+    {
+      img: Tatiana_Goncharenko,
+      stage: "Miltech in Ukraine",
+      title: "Tatiana Goncharenko",
+      subtitle: "Founders League, Founder",
+      linkedin: 'https://www.linkedin.com/in/tetiana-honcharenko-91088023/',
+    },
+    {
+      img: Mikolaj_Firlej,
+      stage: "Miltech in Ukraine",
+      title: "Mikolaj Firlej",
+      subtitle: "Co-founder & GP",
+      linkedin: 'https://www.linkedin.com/in/mikolaj-firlej-508b6a65/',
+    },
+    {
+      img: Dmytro_Kuzmenko,
+      stage: "UIC",
+      title: "Dmytro Kuzmenko",
+      subtitle: "UVCA, CEO",
+      linkedin: 'https://www.linkedin.com/in/dmytro-kuzmenko-9027112a/',
+    },
+    {
+      img: Roman_Nikitov,
+      stage: "Venture Capital",
+      title: "Roman Nikitov",
+      subtitle: "ICU Ventures, Director",
+      linkedin: 'https://www.linkedin.com/in/roman-nikitov-1b707b2/',
+    },
+    {
+      img: Ruslan_Furtas,
+      stage: "M&A panel",
+      title: "Ruslan Furtas",
+      subtitle: "Horizon Capital, Principal",
+      linkedin: 'https://www.linkedin.com/in/ruslanfurtas/',
+    },
+    {
+      img: Andriy_Kolodiuk,
+      stage: "Fund of Funds",
+      title: "Andriy Kolodiuk",
+      subtitle: "AVentures Capital, Co-founder, managing partner",
+      linkedin: 'https://www.linkedin.com/in/andkol/',
+    },
+    {
+      img: Anna_Wnuk,
+      stage: "PE",
+      title: "Anna Wnuk",
+      subtitle: "PSIK, Managing director",
+      linkedin: 'https://www.linkedin.com/in/anna-wnuk-b58583152/',
+    },
+    {
+      img: Barbara_Nowakowska,
       stage: "Institutional investors",
-      title: "Arlene McCoy",
-      subtitle: "Company name, CEO",
+      title: "Barbara Nowakowska",
+      subtitle: "PSIK, Managing director",
+      linkedin: 'https://www.linkedin.com/in/barbara-nowakowska-a0354a67/',
     },
     {
-      img: img3,
-      stage: "Institutional investors",
-      title: "Eleanore Pena",
-      subtitle: "Company name, CEO",
+      img: Lukasz_Wawak,
+      stage: "Venture Capital",
+      title: "Lukasz Wawak",
+      subtitle: "PUSB, General Manager",
+      linkedin: 'https://www.linkedin.com/in/%C5%82ukasz-wawak-5a00b069/',
     },
     {
-      img: img4,
-      stage: "Institutional investors",
-      title: "Jacob Jones",
-      subtitle: "Company name, CEO",
+      img: Anna_Zorya,
+      stage: "M&A",
+      title: "Anna Zorya",
+      subtitle: "RZM, Attorney-in-law",
+      linkedin: 'https://www.linkedin.com/in/anna-zorya-1a253320/',
     },
     {
-      img: img,
-      stage: "Institutional investors",
-      title: "Brooklyn Simmons",
-      subtitle: "Company name, CEO",
-    },
-    {
-      img: img2,
-      stage: "Institutional investors",
-      title: "Arlene McCoy",
-      subtitle: "Company name, CEO",
-    },
-    {
-      img: img3,
-      stage: "Stage Name 7",
-      title: "Eleanore Pena",
-      subtitle: "Company name, CEO",
-    },
-    {
-      img: img4,
-      stage: "Stage Name 8",
-      title: "Jacob Jones",
-      subtitle: "Company name, CEO",
-    },
-    {
-      img: img,
-      stage: "Stage Name 9",
-      title: "Brooklyn Simmons",
-      subtitle: "Company name, CEO",
-    },
-    {
-      img: img2,
-      stage: "Stage Name 1",
-      title: "Arlene McCoy",
-      subtitle: "Company name, CEO",
-    },
-    {
-      img: img3,
-      stage: "Stage Name 2",
-      title: "Eleanore Pena",
-      subtitle: "Company name, CEO",
-    },
-    {
-      img: img4,
-      stage: "Stage Name 3",
-      title: "Jacob Jones",
-      subtitle: "Company name, CEO",
+      img: Lukasz_Gasiński,
+      stage: "Welcome speech",
+      title: "Lukasz Gasiński",
+      subtitle: "RZM, Partner",
+      linkedin: 'https://www.linkedin.com/in/%C5%82ukasz-gasi%C5%84ski-29419883/',
     },
   ];
 
   const stagesData = [...new Set(gridItemData.map((item) => item.stage))].map(stage => ({stage}));
-  console.log(stagesData);
 
   const filteredGridItems = currentStage ? gridItemData.filter((item) => item.stage === currentStage) : gridItemData;
 
@@ -148,6 +180,7 @@ export default function Speakers({ id }) {
             stage={item.stage}
             title={item.title}
             subtitle={item.subtitle}
+            linkedin={item.linkedin}
           />
          )) :
          (filteredGridItems.map((item, key) => 
@@ -157,6 +190,7 @@ export default function Speakers({ id }) {
             stage={item.stage}
             title={item.title}
             subtitle={item.subtitle}
+            linkedin={item.linkedin}
           />
          ))
         }

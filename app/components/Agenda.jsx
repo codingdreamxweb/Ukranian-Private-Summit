@@ -34,14 +34,7 @@ export default function Agenda({ id }) {
       ),
       speakers: <>
         <br/>
-        <span>Moderator: A.Kolodyuk (UVCA)</span><br/>
-        <span>Ukraine’s government representatives:</span><br/>
-        <span>Poland’s government representatives: Pawel Kowal,</span><br/>
-        <span>PSIK Małgorzata Bobrowska;</span><br/>
-        <span>Google Campus: Michal Kramarz,</span><br/>
-        <span>Black Rock</span><br/>
-        <span>Freshfields London (online)</span><br/>
-        <span>RZM (Paweł Rymarz, managing partner)</span>
+        <span>Lukasz_Gasiński, RZM</span><br/>
       </>,
     },
     {
@@ -79,7 +72,10 @@ export default function Agenda({ id }) {
           </span>
         </>
       ),
-      speakers: "Darrell Steward, Ronald Richards, Brooklyn Simmons.",
+      speakers: <>
+      <br />
+      <span>Anna Wnuk, PSIK</span>
+      </>,
     },
     {
       time: "11.30",
@@ -96,7 +92,7 @@ export default function Agenda({ id }) {
           <br/>
           <span>Conclusions and best practices.</span>
         </>,
-      speakers: "",
+      speakers: "Kateryna Glazkova, SUP",
     },
     {
       time: "12.40",
@@ -113,14 +109,24 @@ export default function Agenda({ id }) {
           <span>Focus - M&A with EU businesses.</span>
         </>
       ),
-      speakers: "",
+      speakers: <>
+      <br />
+      <span>Jacek Chwedoruk, Rotschild&Co.</span><br />
+      <span>Ruslan Furtas, Horizon Capital</span><br />
+      <span>Anna Zorya, RZM</span>
+
+      </>,
     },
     {
       time: "13.20",
       title: "Venture Capital panel (discussion)",
       description:
         "Current situation, trends and opportunities. Is it the best moment to “buy a ticket”?",
-      speakers: "",
+      speakers: <>
+      <br/>
+      <span>Roman Nikitov, ICU Ventures</span><br />
+      <span>Lukasz Wawak, PUSB</span><br />
+      </>,
     },
     {
       time: "14.00",
@@ -138,14 +144,21 @@ export default function Agenda({ id }) {
           <span>Opportunities and threats, cases and trends.</span>
         </>
       ),
-      speakers: "Darrell Steward, Ronald Richards, Brooklyn Simmons.",
+      speakers: <>
+        <br/>
+        <span>Tatiana Goncharenko, Founders League</span><br/>
+        <span>Mikolaj Firlej, Expedition Fund</span>
+      </>,
     },
     {
       time: "15.40",
       title: "Ukrainian Investment community (pitch)",
       description:
         "Presentations of Ukrainian investment funds seeking for attracting investments from Polish and EU investors, their portfolio and strategies",
-      speakers: "Darrell Steward, Ronald Richards, Brooklyn Simmons.",
+      speakers: <>
+      <br/>
+      <span>Dmytro Kuzmenko, CEO</span>
+      </>,
     },
     {
       time: "16.20",
@@ -157,7 +170,10 @@ export default function Agenda({ id }) {
           <span> GP’s and partners, how to join.</span>
         </>
       ),
-      speakers: "Darrell Steward, Ronald Richards, Brooklyn Simmons.",
+      speakers:<>
+      <br />
+      <span>Andriy Kolodiuk, AVentures Capital</span>
+      </>,
     },
     {
       time: "16.50",

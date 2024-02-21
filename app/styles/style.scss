@@ -271,7 +271,7 @@ body {
 
   &__buttons-container {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -283,7 +283,7 @@ body {
       //font-family: $montserrat;
       border: 2px solid #DAE4EF;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: 0.7rem;
       border-radius: 24px;
       transition: all 0.35s;
       background-color: transparent;
@@ -312,14 +312,19 @@ body {
   }
   &__item {
     border-radius: 10px;
-    overflow: hidden;
+    // overflow: hidden;
     width: fit-content;
+    margin-bottom: 3.5rem;
     @media (max-width: 1400px) {
       overflow: unset;
       width: unset;
     }
 
     & img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px 20px 0 0;
+      object-fit: cover;
       @media (max-width: 1400px){
         width: 100%;
         height: 100%;
@@ -329,7 +334,7 @@ body {
     &--text {
       position: absolute;
       top: 0;
-      left: 20px;
+      left: 8px;
       @media (max-width: 1200px) {
         top: 10px;
       }
@@ -344,6 +349,9 @@ body {
         //font-family: $montserrat;
         color: $main-color;
         font-weight: 500;
+        max-width: 200px;
+        margin-bottom: 4px;
+        font-size: 0.7rem;
         @media (max-width: 1300px) {
           margin-bottom: 6px;
         }
@@ -354,7 +362,7 @@ body {
       & .name {
         //font-family: $unbounded;
         color: $title-color;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         font-weight: 500;
         margin: 0;
       }
@@ -364,6 +372,7 @@ body {
         color: #556986;
         font-size: 0.8rem;
         font-weight: 400;
+        margin: 4px 0;
         @media (max-width: 1300px) {
           margin-top: 6px;
         }
