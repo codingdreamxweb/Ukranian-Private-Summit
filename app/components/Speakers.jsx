@@ -60,7 +60,7 @@ export default function Speakers({ id }) {
   const gridItemData = [
     {
       img: Kateryna_Glazkova,
-      stage: "Institutional investors",
+      stage: "Invest in UA business",
       title: "Kateryna Glazkova",
       subtitle: "SUP, CEO",
       linkedin: 'https://www.linkedin.com/in/kateryna-glazkova-b801102a6/',
@@ -88,7 +88,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Dmytro_Kuzmenko,
-      stage: "UIC",
+      stage: "UA Funds",
       title: "Dmytro Kuzmenko",
       subtitle: "UVCA, CEO",
       linkedin: 'https://www.linkedin.com/in/dmytro-kuzmenko-9027112a/',
