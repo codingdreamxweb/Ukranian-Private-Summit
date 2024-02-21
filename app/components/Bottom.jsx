@@ -10,7 +10,7 @@ const myFont = localFont({src: '../../public/unbounded.ttf'});
 
 export default function Bottom(params) {
   return (
-    <section style={{maxWidth: '85%', margin: '0 auto', backgroundColor: '#0B4C99', borderRadius: 20}}>
+    <section className="bottom-external">
       <div className="container bottom">
         <div className="bottom__first-line">
           <Image className="logo" src={logo} alt="logo"></Image>
