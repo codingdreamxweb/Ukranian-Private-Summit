@@ -110,8 +110,8 @@ export default function Speakers({ id }) {
     {
       img: Andriy_Kolodiuk,
       stage: "Fund of Funds",
-      title: "Andriy Kolodiuk",
-      subtitle: "AVentures Capital, Co-founder, managing partner",
+      title: "Andriy Kolodyuk",
+      subtitle: "UVCA, Chairman of the Board",
       linkedin: 'https://www.linkedin.com/in/andkol/',
     },
     {
