@@ -339,6 +339,9 @@ body {
       position: absolute;
       top: 0;
       left: 8px;
+      @media (max-width: 1500px) {
+        top: -10px;
+      }
       @media (max-width: 1200px) {
         top: 10px;
       }
@@ -359,6 +362,11 @@ body {
         max-width: 200px;
         margin-bottom: 4px;
         font-size: 0.7rem;
+        margin-bottom: 0px;
+        @media (max-width: 1500px) {
+          max-width: 150px;
+          font-size: 0.6rem;
+        }
         @media (max-width: 1300px) {
           margin-bottom: 2px;
         }
@@ -377,7 +385,7 @@ body {
       & .subtitle {
         //font-family: $montserrat;
         color: #556986;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         font-weight: 400;
         margin: 4px 0;
         @media (max-width: 1300px) {
