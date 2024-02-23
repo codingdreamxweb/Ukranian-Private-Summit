@@ -23,7 +23,7 @@ export default function Agenda({ id }) {
           <span>
             Brief overview of the Ukrainian investment ecosystem and its current
             status; position of Polish government authorities regarding the
-            supporting policy towards Ukraine
+            supporting policy towards Ukraine.
           </span>
           <br />
           <span>
@@ -34,47 +34,36 @@ export default function Agenda({ id }) {
       ),
       speakers: <>
         <br/>
-        <span>Lukasz_Gasiński, RZM</span><br/>
+        <span>Andriy Kolodyuk, UVCA (moderator)</span><br/>
+        <span>Pawel Rymarz, Rymarz Zdort Maruta</span><br/>
       </>,
     },
     {
       time: "10.00",
       title: "Institutional investors",
       description:
-        "A brief overview of existing institutional funding programs for business and funds, investment protection and risk reduction (insurance, targeted funding, blended finance, etc.)",
+        "A brief overview of existing institutional funding programs for business and funds, investment protection and risk reduction (insurance, targeted funding, blended finance, etc.).",
       speakers: <>
       <br/>
         <span>Barbara Nowakowska, PSIK (moderator)</span><br/>
         <span>Joel Wajsberg, EIB</span><br/>
         <span>Piotr Matczuk, IFC</span><br/>
-        <span>Elizabeth Falcetti, EBRD</span><br/>
-        <span>Eliza Kruczkowska, PFR</span><br/>
-        <span>Agnieszka Falkowska, BGK</span>
       </>,
     },
     {
       time: "10.45",
-      title: "PE panel (discussion)",
+      title: "Private Equity (discussion)",
       description: (
         <>
           <span>
-            Cases, trends, forecasts.
-          </span>
-          <br />
-          <span>Fundraising environment - predictions for the rest of 2024</span>
-          <br />
-          <span>
-          Co-transactions with Ukrainian stakeholders.
-          </span>
-          <br/>
-          <span>
-          Post-war investment opportunities from a funds perspective.
+            Cases, trends, forecasts. Fundraising environment - predictions for the rest of 2024 Co-transactions with Ukrainian stakeholders. Post-war investment opportunities from a funds perspective.
           </span>
         </>
       ),
       speakers: <>
-      <br />
-      <span>Anna Wnuk, PSIK</span>
+        <br />
+        <span>Anna Wnuk, PSIK (moderator)</span><br />
+        <span>Paweł Zdort, Rymarz Zdort Maruta</span>
       </>,
     },
     {
@@ -88,44 +77,35 @@ export default function Agenda({ id }) {
       title: "How to properly invest in Ukrainian business during the war?",
       description:
         <>
-          <span>Cases of success/ failed cases in business under martial law.</span>
-          <br/>
-          <span>Conclusions and best practices.</span>
+          <span>Cases of success/ failed cases in business under martial law. Conclusions and best practices.</span>
         </>,
-      speakers: "Kateryna Glazkova, SUP",
+      speakers: "Kateryna Glazkova, SUP (moderator)",
     },
     {
       time: "12.40",
-      title: " M&A panel (discussion)",
+      title: " M&A (discussion)",
       description: (
         <>
-          <span>Cases, trends, forecasts.</span>
-          <br/>
-          <span>
-            Priority industries of interest for investments in Ukraine,
-            opportunities for cooperation. 
-          </span>
-          <br />
-          <span>Focus - M&A with EU businesses.</span>
+          <span>Cases, trends, forecasts. Priority industries of interest for investments in Ukraine, opportunities for cooperation. Focus - M&A with EU businesses.</span>
         </>
       ),
       speakers: <>
       <br />
-      <span>Jacek Chwedoruk, Rotschild&Co.</span><br />
+      <span>Anna Zorya, Rymarz Zdort Maruta (moderator)</span>
+      <span>Jacek Chwedoruk, Rothschild & Co.</span><br />
       <span>Ruslan Furtas, Horizon Capital</span><br />
-      <span>Anna Zorya, RZM</span>
-
       </>,
     },
     {
       time: "13.20",
-      title: "Venture Capital panel (discussion)",
+      title: "Venture Capital (discussion)",
       description:
         "Current situation, trends and opportunities. Is it the best moment to “buy a ticket”?",
       speakers: <>
       <br/>
+      <span>Lukasz Wawak, Polish Ukrainian Startup Bridge (moderator)</span><br />
       <span>Roman Nikitov, ICU Ventures</span><br />
-      <span>Lukasz Wawak, PUSB</span><br />
+      
       </>,
     },
     {
@@ -139,40 +119,38 @@ export default function Agenda({ id }) {
       title: "Miltech in Ukraine. How to invest in miltech?",
       description: (
         <>
-          <span>Would it be a driver industry for Ukraine's economy? </span>
+          <span>Would it be a driver industry for Ukraine's economy? Opportunities and threats, cases and trends.</span>
           <br />
-          <span>Opportunities and threats, cases and trends.</span>
         </>
       ),
       speakers: <>
         <br/>
-        <span>Tatiana Goncharenko, Founders League</span><br/>
+        <span>Tatiana Goncharenko, Founders League (moderator)</span><br/>
         <span>Mikolaj Firlej, Expedition Fund</span>
       </>,
     },
     {
       time: "15.40",
-      title: "Ukrainian Investment community (pitch)",
+      title: "Ukrainian Investment community",
       description:
-        "Presentations of Ukrainian investment funds seeking for attracting investments from Polish and EU investors, their portfolio and strategies",
+        "Presentations of Ukrainian investment funds seeking for attracting investments from Polish and EU investors, their portfolio and strategies.",
       speakers: <>
       <br/>
-      <span>Dmytro Kuzmenko, CEO</span>
+      <span>Dmytro Kuzmenko, UVCA (moderator)</span>
       </>,
     },
     {
       time: "16.20",
-      title: "Ukrainian Fund of Funds (pitch)",
+      title: "Ukrainian Fund of Funds",
       description: (
         <>
-          <span>Presentation of the Fund, its goal and strategy.</span>
+          <span>Presentation of the Fund, its goal and strategy. GP’s and partners, how to join.</span>
           <br />
-          <span> GP’s and partners, how to join.</span>
         </>
       ),
       speakers:<>
       <br />
-      <span>Andriy Kolodiuk, AVentures Capital</span>
+      <span>Andriy Kolodyuk, AVentures Capital (moderator)</span>
       </>,
     },
     {

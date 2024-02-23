@@ -44,13 +44,13 @@ export default function Speakers({ id }) {
           <Image src={vector}></Image>
           <div className="speakers__item--text">
             <p className="stage">{stage}</p>
-            <p className={myFont.className + ' ' + "name"}>{title}</p>
+            <p className={myFont.className + ' ' + "name"}><a style={{textDecoration: 'none', color: 'inherit'}} href={linkedin}>{title}</a></p>
             <p className="subtitle">{subtitle}</p>
-            <div>
+            {/* <div>
               <a href={linkedin} style={{display: 'flex', gap: 10, alignItems: 'center', textDecoration: 'none', color: '#035FCC', cursor: 'pointer'}}>
               Linkedin <Image width={12} style={{transform: 'rotate(-90deg)', width: 12}} src={arrow}></Image>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ export default function Speakers({ id }) {
       img: Jacek_Chwedoruk,
       stage: "M&A panel",
       title: "Jacek Chwedoruk",
-      subtitle: "Rotschild&Co., Head of Rothschild & Co Poland",
+      subtitle: "Rothschild & Co.”., Head of Rothschild & Co. Poland and Co-Head of Rothschild & Co. CEE",
       linkedin: 'https://www.linkedin.com/in/jacek-chwedoruk/',
     },
     {
@@ -83,7 +83,7 @@ export default function Speakers({ id }) {
       img: Mikolaj_Firlej,
       stage: "Miltech in Ukraine",
       title: "Mikolaj Firlej",
-      subtitle: "Co-founder & GP",
+      subtitle: "Expedition Fund, Co-founder & GP",
       linkedin: 'https://www.linkedin.com/in/mikolaj-firlej-508b6a65/',
     },
     {
@@ -139,14 +139,14 @@ export default function Speakers({ id }) {
       img: Anna_Zorya,
       stage: "M&A panel",
       title: "Anna Zorya",
-      subtitle: "RZM, Attorney-in-law",
+      subtitle: "RZM, Expedition Fund",
       linkedin: 'https://www.linkedin.com/in/anna-zorya-1a253320/',
     },
     {
       img: Lukasz_Gasiński,
       stage: "Welcome speech",
-      title: "Lukasz Gasiński",
-      subtitle: "RZM, Partner",
+      title: "Dr hab. Lukasz Gasinsk",
+      subtitle: "Rymarz Zdort Maruta, Partner",
       linkedin: 'https://www.linkedin.com/in/%C5%82ukasz-gasi%C5%84ski-29419883/',
     },
   ];

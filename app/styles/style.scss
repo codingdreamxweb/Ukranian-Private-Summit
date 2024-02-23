@@ -340,7 +340,7 @@ body {
       top: 0;
       left: 8px;
       @media (max-width: 1500px) {
-        top: -10px;
+        top: 0px;
       }
       @media (max-width: 1200px) {
         top: 10px;
@@ -380,6 +380,10 @@ body {
         font-size: 0.8rem;
         font-weight: 500;
         margin: 0;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       & .subtitle {
