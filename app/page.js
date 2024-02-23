@@ -28,6 +28,14 @@ export default function Home() {
       <Agenda id={'agenda-section'}/>
       <Pictures />
       <Bottom />
+      <div style={{
+        textAlign: 'center',
+        
+      }}>
+        <p>
+          © 2024 PE&VC Ukrainian Summit Warsaw. All Rights Reserved.
+        </p>
+      </div>
     </>
   );
 }

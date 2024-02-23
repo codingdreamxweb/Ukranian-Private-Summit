@@ -91,7 +91,7 @@ export default function Agenda({ id }) {
       ),
       speakers: <>
       <br />
-      <span>Anna Zorya, Rymarz Zdort Maruta (moderator)</span>
+      <span>Anna Zorya, Rymarz Zdort Maruta (moderator)</span><br/>
       <span>Jacek Chwedoruk, Rothschild & Co.</span><br />
       <span>Ruslan Furtas, Horizon Capital</span><br />
       </>,
