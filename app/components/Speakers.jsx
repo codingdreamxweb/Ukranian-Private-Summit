@@ -17,6 +17,7 @@ import Lukasz_Gasiński from "@/app/assets/img/speakers/Lukasz_Gasiński.jpg";
 import Sandra_Golbreich from "@/app/assets/img/speakers/Sandra_Golbreich.jpg";
 import Piotr_Matczuk from "@/app/assets/img/speakers/Piotr_Matczuk.jpg";
 import vector from "@/app/assets/img/speakers/vector.svg";
+import vector2 from "@/app/assets/img/speakers/vector2.svg";
 import arrow from "@/app/assets/img/arrow-blue.svg";
 
 import { useState } from "react";
@@ -43,16 +44,11 @@ export default function Speakers({ id }) {
       <div className="speakers__item">
         <Image className="speakers__item--speaker-img" src={img} alt="speakers picture" />
         <div className="speakers__item--text-container">
-          <Image src={vector}></Image>
+          <Image src={vector2}></Image>
           <div className="speakers__item--text">
             <p className="stage">{stage}</p>
             <p className={myFont.className + ' ' + "name"}><a style={{textDecoration: 'none', color: 'inherit'}} href={linkedin}>{title}</a></p>
             <p className="subtitle">{subtitle}</p>
-            {/* <div>
-              <a href={linkedin} style={{display: 'flex', gap: 10, alignItems: 'center', textDecoration: 'none', color: '#035FCC', cursor: 'pointer'}}>
-              Linkedin <Image width={12} style={{transform: 'rotate(-90deg)', width: 12}} src={arrow}></Image>
-              </a>
-            </div> */}
           </div>
         </div>
       </div>
