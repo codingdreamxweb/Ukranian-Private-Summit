@@ -14,6 +14,8 @@ import Barbara_Nowakowska from "@/app/assets/img/speakers/Barbara_Nowakowska.jpg
 import Lukasz_Wawak from "@/app/assets/img/speakers/Lukasz_Wawak.jpg";
 import Anna_Zorya from "@/app/assets/img/speakers/Anna_Zorya.jpg";
 import Lukasz_Gasiński from "@/app/assets/img/speakers/Lukasz_Gasiński.jpg";
+import Sandra_Golbreich from "@/app/assets/img/speakers/Sandra_Golbreich.jpg";
+import Piotr_Matczuk from "@/app/assets/img/speakers/Piotr_Matczuk.jpg";
 import vector from "@/app/assets/img/speakers/vector.svg";
 import arrow from "@/app/assets/img/arrow-blue.svg";
 
@@ -69,7 +71,7 @@ export default function Speakers({ id }) {
       img: Jacek_Chwedoruk,
       stage: "M&A panel",
       title: "Jacek Chwedoruk",
-      subtitle: "Rothschild & Co.”., Head of Rothschild & Co. Poland and Co-Head of Rothschild & Co. CEE",
+      subtitle: "Rothschild & Co., Head of Rothschild & Co. Poland and Co-Head of Rothschild & Co. CEE",
       linkedin: 'https://www.linkedin.com/in/jacek-chwedoruk/',
     },
     {
@@ -139,7 +141,7 @@ export default function Speakers({ id }) {
       img: Anna_Zorya,
       stage: "M&A panel",
       title: "Anna Zorya",
-      subtitle: "Rymarz Zdort Maruta, attorney-at-law",
+      subtitle: "Rymarz Zdort Maruta, Partner, Head of Ukrainian Desk",
       linkedin: 'https://www.linkedin.com/in/anna-zorya-1a253320/',
     },
     {
@@ -148,6 +150,20 @@ export default function Speakers({ id }) {
       title: "Dr hab. Lukasz Gasinski",
       subtitle: "Rymarz Zdort Maruta, Partner",
       linkedin: 'https://www.linkedin.com/in/%C5%82ukasz-gasi%C5%84ski-29419883/',
+    },
+    {
+      img: Sandra_Golbreich,
+      stage: "Venture Capital panel",
+      title: "Sandra Golbreich",
+      subtitle: "Baltic Sandbox Ventures, General partner",
+      linkedin: 'https://www.linkedin.com/in/sandra-golbreich/',
+    },
+    {
+      img: Piotr_Matczuk,
+      stage: "Institutional investors",
+      title: "Piotr Matczuk",
+      subtitle: "IFC, Country Head Poland",
+      linkedin: 'https://www.linkedin.com/in/piotrmatczuk/',
     },
   ];
 

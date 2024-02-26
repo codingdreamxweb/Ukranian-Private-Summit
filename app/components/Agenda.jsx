@@ -56,7 +56,7 @@ export default function Agenda({ id }) {
       description: (
         <>
           <span>
-            Cases, trends, forecasts. Fundraising environment - predictions for the rest of 2024 Co-transactions with Ukrainian stakeholders. Post-war investment opportunities from a funds perspective.
+            Cases, trends, forecasts. Fundraising environment - predictions for the rest of 2024. Co-transactions with Ukrainian stakeholders. Post-war investment opportunities from the funds’ perspective.
           </span>
         </>
       ),
@@ -133,7 +133,7 @@ export default function Agenda({ id }) {
       time: "15.40",
       title: "Ukrainian Investment community",
       description:
-        "Presentations of Ukrainian investment funds seeking for attracting investments from Polish and EU investors, their portfolio and strategies.",
+        "Presentation of Ukrainian investment funds seeking to attract investments from Polish and EU investors; their portfolio and strategies.",
       speakers: <>
       <br/>
       <span>Dmytro Kuzmenko, UVCA (moderator)</span>
@@ -161,7 +161,7 @@ export default function Agenda({ id }) {
     },
     {
       time: "17.00",
-      title: "Networking and buffet.",
+      title: "Networking cocktail.",
       description: "",
       speakers: "",
     },
