@@ -153,7 +153,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Sandra_Golbreich,
-      stage: "Venture Capital panel",
+      stage: "Venture Capital",
       title: "Sandra Golbreich",
       subtitle: "Baltic Sandbox Ventures, General partner",
       linkedin: 'https://www.linkedin.com/in/sandra-golbreich/',
