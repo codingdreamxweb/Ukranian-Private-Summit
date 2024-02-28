@@ -16,6 +16,11 @@ import Anna_Zorya from "@/app/assets/img/speakers/Anna_Zorya.jpg";
 import Lukasz_Gasiński from "@/app/assets/img/speakers/Lukasz_Gasiński.jpg";
 import Sandra_Golbreich from "@/app/assets/img/speakers/Sandra_Golbreich.jpg";
 import Piotr_Matczuk from "@/app/assets/img/speakers/Piotr_Matczuk.jpg";
+import Eliza_Kruczkowska from "@/app/assets/img/speakers/Eliza_Kruczkowska.jpg";
+import Viktorija_Trimbel from "@/app/assets/img/speakers/Viktorija_Trimbel.jpg";
+import Łukasz_Dziekoński from "@/app/assets/img/speakers/Łukasz_Dziekoński.jpg";
+
+
 import vector from "@/app/assets/img/speakers/vector.svg";
 import vector2 from "@/app/assets/img/speakers/vector2.svg";
 import arrow from "@/app/assets/img/arrow-blue.svg";
@@ -160,6 +165,27 @@ export default function Speakers({ id }) {
       title: "Piotr Matczuk",
       subtitle: "IFC, Country Head Poland",
       linkedin: 'https://www.linkedin.com/in/piotrmatczuk/',
+    },
+    {
+      img: Eliza_Kruczkowska,
+      stage: "Institutional investors",
+      title: "Eliza Kruczkowska",
+      subtitle: "PFR, Director of Innovation Development",
+      linkedin: 'https://www.linkedin.com/in/elizakruczkowska/',
+    },
+    {
+      img: Viktorija_Trimbel,
+      stage: "Miltech in Ukraine",
+      title: "Viktorija Trimbel",
+      subtitle: "Coinvest Capital, Managing Director",
+      linkedin: 'https://www.linkedin.com/in/viktorijatrimbel/',
+    },
+    {
+      img: Łukasz_Dziekoński,
+      stage: "Venture Capital",
+      title: "Lukasz Dziekonski",
+      subtitle: "Montis Capital, CEO and the Managing Partner",
+      linkedin: 'https://www.linkedin.com/in/lukasz-dziekonski-331513/',
     },
   ];
 

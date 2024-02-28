@@ -14,7 +14,7 @@ export default function Bottom(params) {
       <div className="container bottom">
         <div className="bottom__first-line">
           <Image className="logo" src={logo} alt="logo"></Image>
-          <p className={myFont.className + ' ' + "date"}>March 21, 2024<br/> at Google Campus Warsaw, Poland</p>
+          <p className={myFont.className + ' ' + "date"}>March 21, 2024<br/> at Google for Startups Campus in Warsaw</p>
           <div className="link">
             <a className={myFont.className + ' ' + "link-site"} target="_blank" href="https://uvca.eu/">
             Visit UVCA summit organiser website

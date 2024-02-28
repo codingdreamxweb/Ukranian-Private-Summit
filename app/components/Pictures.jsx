@@ -24,9 +24,9 @@ export default function Pictures() {
                   <p className={myFont.className + ' ' + "location"}>Location</p>
                 </div>
                 <h2 className={myFont.className + ' ' + "pictures__title"}>
-                  <span>Google Campus</span>
+                  <span>Google for Startups</span>
                   <br />
-                  <span>Warsaw, Poland</span>
+                  <span>Campus in Warsaw</span>
                 </h2>
                 <p className={myFont.className + ' ' + "pictures__date"}>March 21, 2024</p>
               </a>

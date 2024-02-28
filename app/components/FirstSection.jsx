@@ -50,7 +50,7 @@ export default function FirstSection() {
       </h1>
       <p className={myFont.className + ' ' + "subtitle"}>
         March 21, 2024
-        <br /> <span>Google Campus Warsaw, Poland</span>{" "}
+        <br /> <span>Google for Startups Campus in Warsaw</span>
       </p>
       <p className="text">
         The EU-Ukraine Investment Bridge: a meeting place for Ukrainian and
