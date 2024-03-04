@@ -10,7 +10,7 @@ export default function Partners ({ bgcolor, img, id }) {
         <div className='partners__inner--img-container uvca' ><Image style={{width: '100%'}} src={logo1} alt="UVCA Logo"/></div>
         <div className='partners__inner--img-container'><Image src={logo2} alt="PSIK Logo"/></div>
         <div className='partners__inner--img-container'><Image src={logo3} alt="RZM Logo"/></div>
-        {img && <div className='dreamx'><Image src={img}/></div>}
+        {img && <div className='dreamx'><a href="https://www.dreamxweb.com/"><Image src={img}/></a></div>}
       </div>
     </section>
   )
