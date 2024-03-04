@@ -147,7 +147,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Lukasz_Gasiński,
-      stage: "Welcome speech",
+      stage: "Wrap-up",
       title: "Dr hab. Lukasz Gasinski",
       subtitle: "Rymarz Zdort Maruta, Partner",
       linkedin: 'https://www.linkedin.com/in/%C5%82ukasz-gasi%C5%84ski-29419883/',

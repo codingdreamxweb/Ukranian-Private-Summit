@@ -43,6 +43,17 @@ export async function POST(req, res) {
           Would you like to promote your company / organization during the Summit? ${promotionAgreement}
         `,
         });
+        transporter.sendMail ({
+          from: email,
+          to: 'uvca@justmail.biz',
+          text: `
+          Name: ${name}
+          Email: ${email}
+          Company: ${company}
+          Would you like to support the Summit as a sponsor, partner or in any other way? ${supportAgreement}
+          Would you like to promote your company / organization during the Summit? ${promotionAgreement}
+        `,
+        });
 
         NextResponse.json({message: 'test'}, { status: 200 })
       }

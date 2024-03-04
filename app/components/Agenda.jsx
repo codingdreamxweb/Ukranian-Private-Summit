@@ -34,9 +34,6 @@ export default function Agenda({ id }) {
       ),
       speakers: <>
         <br/>
-        <span>Andriy Kolodyuk, UVCA (moderator)</span><br/>
-        <span>Pawel Rymarz, Rymarz Zdort Maruta</span><br/>
-        <span>Michal Kramarz, Google Campus</span><br/>
       </>,
     },
     {
@@ -47,9 +44,7 @@ export default function Agenda({ id }) {
       speakers: <>
       <br/>
         <span>Barbara Nowakowska, PSIK (moderator)</span><br/>
-        <span>Joel Wajsberg, EIB</span><br/>
         <span>Piotr Matczuk, IFC</span><br/>
-        <span>Agnieszka Falkowska, BGK</span><br/>
         <span>Elisabetta Falcetti, EBRD</span><br/>
       </>,
     },
@@ -66,8 +61,6 @@ export default function Agenda({ id }) {
       speakers: <>
         <br />
         <span>Anna Wnuk, PSIK (moderator)</span><br />
-        <span>Paweł Zdort, Rymarz Zdort Maruta</span><br/>
-        <span>Małgorzata Bobrowska, Resource Partners</span><br/>
       </>,
     },
     {
@@ -98,7 +91,6 @@ export default function Agenda({ id }) {
       <span>Anna Zorya, Rymarz Zdort Maruta (moderator)</span><br/>
       <span>Jacek Chwedoruk, Rothschild & Co.</span><br />
       <span>Ruslan Furtas, Horizon Capital</span><br />
-      <span>Lucyna Stańczak-Wuczyńska, BNP Paribas</span><br />
       </>,
     },
     {
@@ -164,7 +156,7 @@ export default function Agenda({ id }) {
       time: "16.50",
       title: 'Wrapping up',
       description: `Closing remarks, "call to action".`,
-      speakers: "",
+      speakers: "Dr hab. Lukasz Gasiński, Rymarz Zdort Maruta",
     },
     {
       time: "17.00",

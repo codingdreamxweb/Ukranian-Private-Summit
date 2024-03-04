@@ -39,6 +39,7 @@ export default function FirstSection() {
       setEmail("");
       setPromotionAgreement("");
       setSupportAgreement("");
+      setModal(!modal);
     } catch (error) {
       console.log({ error });
     }
