@@ -45,7 +45,7 @@ export default function Agenda({ id }) {
       <br/>
         <span>Barbara Nowakowska, PSIK (moderator)</span><br/>
         <span>Piotr Matczuk, IFC</span><br/>
-        <span>Elisabetta Falcetti, EBRD</span><br/>
+        <span>Eliza Kruczkowska, EBRD</span><br/>
       </>,
     },
     {
