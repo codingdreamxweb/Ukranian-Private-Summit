@@ -110,7 +110,8 @@ export default function Agenda({ id }) {
       <br/>
       <span>Lukasz Wawak, Polish Ukrainian Startup Bridge (moderator)</span><br />
       <span>Roman Nikitov, ICU Ventures</span><br />
-      
+      <span>Lukasz Dziekonski, Montis Capital</span><br />
+      <span>Sandra Golbreich, Baltic Sandbox Ventures</span><br />
       </>,
     },
     {
@@ -131,7 +132,8 @@ export default function Agenda({ id }) {
       speakers: <>
         <br/>
         <span>Tatiana Goncharenko, Founders League (moderator)</span><br/>
-        <span>Mikolaj Firlej, Expedition Fund</span>
+        <span>Mikolaj Firlej, Expedition Fund</span><br/>
+        <span>Viktorija Trimbel, Coinvest Capital</span>
       </>,
     },
     {
