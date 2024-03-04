@@ -61,6 +61,7 @@ export default function Agenda({ id }) {
       speakers: <>
         <br />
         <span>Anna Wnuk, PSIK (moderator)</span><br />
+        <span>Małgorzata Bobrowska, Resource Partners</span><br />
       </>,
     },
     {
@@ -76,7 +77,11 @@ export default function Agenda({ id }) {
         <>
           <span>Cases of success/ failed cases in business under martial law. Conclusions and best practices.</span>
         </>,
-      speakers: "Kateryna Glazkova, SUP (moderator)",
+      speakers: <>
+        <br/>
+        <span>Kateryna Glazkova, SUP (moderator)</span><br/>
+        <span>Victor Koptenkov, D Art Logistic Ukraine </span>
+      </>,
     },
     {
       time: "12.40",

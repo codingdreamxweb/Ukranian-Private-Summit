@@ -19,7 +19,8 @@ import Piotr_Matczuk from "@/app/assets/img/speakers/Piotr_Matczuk.jpg";
 import Eliza_Kruczkowska from "@/app/assets/img/speakers/Eliza_Kruczkowska.jpg";
 import Viktorija_Trimbel from "@/app/assets/img/speakers/Viktorija_Trimbel.jpg";
 import Łukasz_Dziekoński from "@/app/assets/img/speakers/Łukasz_Dziekoński.jpg";
-
+import Victor_Koptenkov from "@/app/assets/img/speakers/Victor_Koptenkov.jpg";
+import Małgorzata_Bobrowska from "@/app/assets/img/speakers/Małgorzata_Bobrowska.jpg";
 
 import vector from "@/app/assets/img/speakers/vector.svg";
 import vector2 from "@/app/assets/img/speakers/vector2.svg";
@@ -185,6 +186,20 @@ export default function Speakers({ id }) {
       stage: "Venture Capital",
       title: "Lukasz Dziekonski",
       subtitle: "Montis Capital, CEO and the Managing Partner",
+      linkedin: 'https://www.linkedin.com/in/lukasz-dziekonski-331513/',
+    },
+    {
+      img: Victor_Koptenkov,
+      stage: "Invest in UA business",
+      title: "Victor Koptenkov",
+      subtitle: "D Art Logistic Ukraine, Co-founder",
+      linkedin: 'https://www.linkedin.com/in/victor-koptenkov-5aba3944/',
+    },
+    {
+      img: Małgorzata_Bobrowska,
+      stage: "PE panel",
+      title: "Małgorzata Bobrowskai",
+      subtitle: "Resource Partners, CEO and the Managing Partner",
       linkedin: 'https://www.linkedin.com/in/lukasz-dziekonski-331513/',
     },
   ];
