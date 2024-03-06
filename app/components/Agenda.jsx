@@ -34,6 +34,9 @@ export default function Agenda({ id }) {
       ),
       speakers: <>
         <br/>
+        <span>Michal Kramarz, Google Campus</span><br/>
+        <span>Paweł Rymarz, Rymarz Zdort Maruta</span><br/>
+        <span>Tony Housh, American Chamber of Commerce Board of Directorss</span><br/>
       </>,
     },
     {
@@ -46,6 +49,9 @@ export default function Agenda({ id }) {
         <span>Barbara Nowakowska, PSIK (moderator)</span><br/>
         <span>Piotr Matczuk, IFC</span><br/>
         <span>Eliza Kruczkowska, PFR</span><br/>
+        <span>Iliya Mihov, EIB</span><br/>
+        <span>Karol Tofil, BGK</span><br/>
+        <span>Aziza Zakhidova, EBRD</span><br/>
       </>,
     },
     {
@@ -62,6 +68,8 @@ export default function Agenda({ id }) {
         <br />
         <span>Anna Wnuk, PSIK (moderator)</span><br />
         <span>Małgorzata Bobrowska, Resource Partners</span><br />
+        <span>Leszek Muzyczyszyn, Innova Capitals</span><br />
+        <span>Przemysław Głębocki, Accession Capital Partners</span><br />
       </>,
     },
     {
@@ -154,7 +162,8 @@ export default function Agenda({ id }) {
       ),
       speakers:<>
       <br />
-      <span>Andriy Kolodyuk, AVentures Capital (moderator)</span>
+      <span>Andriy Kolodyuk, AVentures Capital (moderator)</span><br/>
+      <span>Secret Speaker</span>
       </>,
     },
     {
