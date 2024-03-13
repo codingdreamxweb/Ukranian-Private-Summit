@@ -21,6 +21,12 @@ import Viktorija_Trimbel from "@/app/assets/img/speakers/Viktorija_Trimbel.jpg";
 import Łukasz_Dziekoński from "@/app/assets/img/speakers/Łukasz_Dziekoński.jpg";
 import Victor_Koptenkov from "@/app/assets/img/speakers/Victor_Koptenkov.jpg";
 import Małgorzata_Bobrowska from "@/app/assets/img/speakers/Małgorzata_Bobrowska.jpg";
+import Mikhal_Kramarz from "@/app/assets/img/speakers/Mikhal_Kramarz.jpeg";
+import Rymarz_Paweł from "@/app/assets/img/speakers/Rymarz_Paweł.png";
+import Keith_Chapman from "@/app/assets/img/speakers/Keith_Chapman.png";
+import Karol_Tofil from "@/app/assets/img/speakers/Karol_Tofil.jpg";
+import Iliya_Mihov from "@/app/assets/img/speakers/Iliya_Mihov.jpeg";
+import Aziza_Zakhidova from "@/app/assets/img/speakers/Aziza_Zakhidova.jpg";
 
 import vector from "@/app/assets/img/speakers/vector.svg";
 import vector2 from "@/app/assets/img/speakers/vector2.svg";
@@ -113,7 +119,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Andriy_Kolodiuk,
-      stage: "Fund of Funds",
+      stage: "Welcome speech",
       title: "Andriy Kolodyuk",
       subtitle: "UVCA, Chairman of the Board",
       linkedin: 'https://www.linkedin.com/in/andkol/',
@@ -201,6 +207,48 @@ export default function Speakers({ id }) {
       title: "Małgorzata Bobrowskai",
       subtitle: "Resource Partners, CEO and the Managing Partner",
       linkedin: 'https://www.linkedin.com/in/lukasz-dziekonski-331513/',
+    },
+    {
+      img: Mikhal_Kramarz,
+      stage: "Welcome speech",
+      title: "Michal Kramarz",
+      subtitle: "Google Campus, Head of Google for Startups CEE",
+      linkedin: 'https://www.linkedin.com/in/mkramarz/',
+    },
+    {
+      img: Rymarz_Paweł,
+      stage: "Welcome speech",
+      title: "Paweł Rymarz",
+      subtitle: "Rymarz Zdort Maruta, Managing Partner",
+      linkedin: 'https://www.linkedin.com/in/pawel-rymarz-4023a325/',
+    },
+    {
+      img: Keith_Chapman,
+      stage: "Welcome speech",
+      title: "Keith_Chapman",
+      subtitle: "Freshfields Bruckhaus Deringer, Counsel",
+      linkedin: 'https://www.linkedin.com/in/keith-chapman-freshfields/',
+    },
+    {
+      img: Iliya_Mihov,
+      stage: "Institutional investors",
+      title: "Iliya Mihov",
+      subtitle: "EIB, Equity Investment Officer",
+      linkedin: 'https://www.linkedin.com/in/iliya-mihov-0b4a292/',
+    },
+    {
+      img: Karol_Tofil,
+      stage: "Institutional investors",
+      title: "Karol Tofil",
+      subtitle: "BGK, Head of International Business and Partnerships Office",
+      linkedin: 'https://www.linkedin.com/in/karol-tofil-2126b714b/',
+    },
+    {
+      img: Aziza_Zakhidova,
+      stage: "Institutional investors",
+      title: "Aziza Zakhidova",
+      subtitle: "EBRD, Senior member of VC Team",
+      linkedin: 'https://www.linkedin.com/in/azizazakhidova/',
     },
   ];
 
