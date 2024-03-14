@@ -2,6 +2,7 @@ import logo1 from '@/app/assets/img/partners/dreamX.svg';
 import FirstSection from "./components/FirstSection";
 import ScrollingText from "./components/ScrollingText";
 import Partners from "./components/Partners";
+import Partners2 from "./components/Partners-2";
 import Article from "./components/Article";
 import Speakers from "./components/Speakers";
 import Agenda from "./components/Agenda";
@@ -18,7 +19,7 @@ export default function Home() {
       />
       <Article />
       <ScrollingText text={'Partners and Sponsors'}/>
-      <Partners 
+      <Partners2
         bgcolor={'#F3EAFF'}
         img={logo1}
         id={'partners-section'}

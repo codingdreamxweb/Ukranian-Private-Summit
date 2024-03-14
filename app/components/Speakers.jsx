@@ -27,6 +27,19 @@ import Keith_Chapman from "@/app/assets/img/speakers/Keith_Chapman.png";
 import Karol_Tofil from "@/app/assets/img/speakers/Karol_Tofil.jpg";
 import Iliya_Mihov from "@/app/assets/img/speakers/Iliya_Mihov.jpeg";
 import Aziza_Zakhidova from "@/app/assets/img/speakers/Aziza_Zakhidova.jpg";
+import Maksym_Kuznetsov from "@/app/assets/img/speakers/Maksym_Kuznetsov.jpg";
+import Leszek_Muzyczyszyn from "@/app/assets/img/speakers/Leszek_Muzyczyszyn.jpg";
+import Przemysław_Głębocki from "@/app/assets/img/speakers/Przemysław_Głębocki.jpeg";
+import Andrii_Nosok from "@/app/assets/img/speakers/Andriy_Nosok.png";
+import Paweł_Szreder from "@/app/assets/img/speakers/Paweł_Szreder.jpg";
+import Jan_Erik_Saarinen from "@/app/assets/img/speakers/Jan_Erik_Saarinen.jpg";
+import Denys_Gurak from "@/app/assets/img/speakers/Denys_Gurak.jpeg";
+import Konstantin_Magaletskyi from "@/app/assets/img/speakers/Konstantin_Magaletskyi.jpg";
+import Vitali_Laptenok from "@/app/assets/img/speakers/Vitali_Laptenok.jpg";
+import Galyna_Isakiv from "@/app/assets/img/speakers/Galyna_Isakiv.JPG";
+import Secret_Speaker from "@/app/assets/img/speakers/Secret_Speaker.jpg";
+import Tony_Housh from "@/app/assets/img/speakers/Tony_Housh.jpeg";
+
 
 import vector from "@/app/assets/img/speakers/vector.svg";
 import vector2 from "@/app/assets/img/speakers/vector2.svg";
@@ -97,11 +110,46 @@ export default function Speakers({ id }) {
       linkedin: 'https://www.linkedin.com/in/mikolaj-firlej-508b6a65/',
     },
     {
+      img: Jan_Erik_Saarinen,
+      stage: "Miltech in Ukraine",
+      title: "Jan-Erik Saarinen",
+      subtitle: "Double Tap Investments, Co-founder",
+      linkedin: 'https://www.linkedin.com/in/janeriksaarinen/',
+    },
+    {
+      img: Denys_Gurak,
+      stage: "Miltech in Ukraine",
+      title: "Denys Gurak",
+      subtitle: "MITS Capital, Co-Founding Partner",
+      linkedin: 'https://www.linkedin.com/in/denys-gurak/',
+    },
+    {
       img: Dmytro_Kuzmenko,
       stage: "UA Funds",
       title: "Dmytro Kuzmenko",
       subtitle: "UVCA, CEO",
       linkedin: 'https://www.linkedin.com/in/dmytro-kuzmenko-9027112a/',
+    },
+    {
+      img: Konstantin_Magaletskyi,
+      stage: "UA Funds",
+      title: "Konstantin Magaletskyi",
+      subtitle: "Green Recovery Fund/SD Capital, Co-Founder, Partner",
+      linkedin: 'https://www.linkedin.com/in/magaletsky/',
+    },
+    {
+      img: Vitali_Laptenok,
+      stage: "UA Funds",
+      title: "Vitali Laptenok",
+      subtitle: "Flyer One Ventures, General Partner, Founder",
+      linkedin: 'https://www.linkedin.com/in/vital-laptenok-57607a10/',
+    },
+    {
+      img: Galyna_Isakiv,
+      stage: "UA Funds",
+      title: "Galyna Isakiv",
+      subtitle: "SID Venture Partners, Head of Portfoilo & Operations",
+      linkedin: 'https://www.linkedin.com/in/galyna-isakiv/',
     },
     {
       img: Roman_Nikitov,
@@ -153,11 +201,32 @@ export default function Speakers({ id }) {
       linkedin: 'https://www.linkedin.com/in/anna-zorya-1a253320/',
     },
     {
+      img: Andrii_Nosok,
+      stage: "M&A panel",
+      title: "Andrii Nosok",
+      subtitle: "Dragon Capital, Partner, Managing Director",
+      linkedin: 'https://www.linkedin.com/in/andrii-nosok-1450b32/',
+    },
+    {
+      img: Paweł_Szreder,
+      stage: "M&A panel",
+      title: "Paweł Szrederk",
+      subtitle: "Bain & Company, Partner, Partner",
+      linkedin: 'https://www.linkedin.com/in/pawel-szreder/',
+    },
+    {
       img: Lukasz_Gasiński,
       stage: "Wrap-up",
       title: "Dr hab. Lukasz Gasinski",
       subtitle: "Rymarz Zdort Maruta, Partner",
       linkedin: 'https://www.linkedin.com/in/%C5%82ukasz-gasi%C5%84ski-29419883/',
+    },
+    {
+      img: Tony_Housh,
+      stage: "Wrap-up",
+      title: "Tony Housh",
+      subtitle: "American Chamber of Commerce in Poland, Chairman of the Board of Directors",
+      linkedin: 'https://www.linkedin.com/in/tony-housh-20a6971/',
     },
     {
       img: Sandra_Golbreich,
@@ -204,7 +273,7 @@ export default function Speakers({ id }) {
     {
       img: Małgorzata_Bobrowska,
       stage: "PE panel",
-      title: "Małgorzata Bobrowskai",
+      title: "Małgorzata Bobrowska",
       subtitle: "Resource Partners, CEO and the Managing Partner",
       linkedin: 'https://www.linkedin.com/in/lukasz-dziekonski-331513/',
     },
@@ -225,7 +294,7 @@ export default function Speakers({ id }) {
     {
       img: Keith_Chapman,
       stage: "Welcome speech",
-      title: "Keith_Chapman",
+      title: "Keith Chapman",
       subtitle: "Freshfields Bruckhaus Deringer, Counsel",
       linkedin: 'https://www.linkedin.com/in/keith-chapman-freshfields/',
     },
@@ -249,6 +318,34 @@ export default function Speakers({ id }) {
       title: "Aziza Zakhidova",
       subtitle: "EBRD, Senior member of VC Team",
       linkedin: 'https://www.linkedin.com/in/azizazakhidova/',
+    },
+    {
+      img: Maksym_Kuznetsov,
+      stage: "PE panel",
+      title: "Maksym Kuznetsov",
+      subtitle: "Horizon Capital, Investment Director",
+      linkedin: 'https://www.linkedin.com/in/maksym-kuznetsov-3788b560/',
+    },
+    {
+      img: Leszek_Muzyczyszyn,
+      stage: "PE panel",
+      title: "Leszek Muzyczyszyn",
+      subtitle: "Innova Capital, Senior Partner",
+      linkedin: 'https://www.linkedin.com/in/leszek-muzyczyszyn-5561a71/',
+    },
+    {
+      img: Przemysław_Głębocki,
+      stage: "PE panel",
+      title: "Przemysław Głębocki",
+      subtitle: "Accession Capital Partners, Managing Partner",
+      linkedin: 'https://www.linkedin.com/in/przemyslaw-glebocki-14b388/',
+    },
+    {
+      img: Secret_Speaker,
+      stage: "Fund of Funds",
+      title: "Secret Speaker",
+      subtitle: "Ukrainian Fund of Funds",
+      linkedin: '',
     },
   ];
 

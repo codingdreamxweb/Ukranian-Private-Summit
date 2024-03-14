@@ -34,9 +34,10 @@ export default function Agenda({ id }) {
       ),
       speakers: <>
         <br/>
+        <span>Andriy Kolodiuk, UVCA Chairman of the Board (moderator)</span><br/>
         <span>Michal Kramarz, Google Campus</span><br/>
         <span>Paweł Rymarz, Rymarz Zdort Maruta</span><br/>
-        <span>Tony Housh, American Chamber of Commerce Board of Directorss</span><br/>
+        <span>Keith Chapman, Freshfields Bruckhaus Deringer</span><br/>
       </>,
     },
     {
@@ -56,7 +57,7 @@ export default function Agenda({ id }) {
     },
     {
       time: "10.45",
-      title: "Private Equity (discussion)",
+      title: "Private Equity",
       description: (
         <>
           <span>
@@ -68,6 +69,7 @@ export default function Agenda({ id }) {
         <br />
         <span>Anna Wnuk, PSIK (moderator)</span><br />
         <span>Małgorzata Bobrowska, Resource Partners</span><br />
+        <span>Maksym Kuznetsov, Horizon Capital</span><br />
         <span>Leszek Muzyczyszyn, Innova Capitals</span><br />
         <span>Przemysław Głębocki, Accession Capital Partners</span><br />
       </>,
@@ -92,8 +94,8 @@ export default function Agenda({ id }) {
       </>,
     },
     {
-      time: "12.40",
-      title: "M&A (discussion)",
+      time: "12.30",
+      title: "M&A",
       description: (
         <>
           <span>Cases, trends, forecasts. Priority industries of interest for investments in Ukraine, opportunities for cooperation. Focus - M&A with EU businesses.</span>
@@ -104,11 +106,13 @@ export default function Agenda({ id }) {
       <span>Anna Zorya, Rymarz Zdort Maruta (moderator)</span><br/>
       <span>Jacek Chwedoruk, Rothschild & Co.</span><br />
       <span>Ruslan Furtas, Horizon Capital</span><br />
+      <span>Andrii Nosok, Dragon Capital</span><br />
+      <span>Paweł Szrederk, Bain & Company</span><br />
       </>,
     },
     {
-      time: "13.20",
-      title: "Venture Capital (discussion)",
+      time: "13.15",
+      title: "Venture Capital",
       description:
         "Current situation, trends and opportunities. Is it the best moment to “buy a ticket”?",
       speakers: <>
@@ -138,6 +142,8 @@ export default function Agenda({ id }) {
         <br/>
         <span>Tatiana Goncharenko, Founders League (moderator)</span><br/>
         <span>Mikolaj Firlej, Expedition Fund</span><br/>
+        <span>Jan-Erik Saarinen, Double Tap Investments</span><br/>
+        <span>Denys Gurak, MITS Capital</span><br/>
         <span>Viktorija Trimbel, Coinvest Capital</span>
       </>,
     },
@@ -148,7 +154,10 @@ export default function Agenda({ id }) {
         "Presentation of Ukrainian investment funds seeking to attract investments from Polish and EU investors; their portfolio and strategies.",
       speakers: <>
       <br/>
-      <span>Dmytro Kuzmenko, UVCA (moderator)</span>
+      <span>Dmytro Kuzmenko, UVCA (moderator)</span><br/>
+      <span>Konstantin Magaletskyi, Green Recovery Fund/SD Capital</span><br/>
+      <span>Vitali Laptenok, "Flyer One Ventures</span><br/>
+      <span>Galyna Isakiv, SID Venture Partners</span><br/>
       </>,
     },
     {
@@ -162,7 +171,6 @@ export default function Agenda({ id }) {
       ),
       speakers:<>
       <br />
-      <span>Andriy Kolodyuk, AVentures Capital (moderator)</span><br/>
       <span>Secret Speaker</span>
       </>,
     },
@@ -170,7 +178,11 @@ export default function Agenda({ id }) {
       time: "16.50",
       title: 'Wrapping up',
       description: `Closing remarks, "call to action".`,
-      speakers: "Dr hab. Lukasz Gasiński, Rymarz Zdort Maruta",
+      speakers: <>
+        <br/>
+        <span>Dr hab. Lukasz Gasiński, Rymarz Zdort Maruta</span><br/>
+        <span>Tony Housh, American Chamber of Commerce in Poland</span>
+      </>,
     },
     {
       time: "17.00",
