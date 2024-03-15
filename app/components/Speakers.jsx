@@ -153,7 +153,7 @@ export default function Speakers({ id }) {
     },
     {
       img: Roman_Nikitov,
-      stage: "Venture Capital",
+      stage: "Wrap-up",
       title: "Roman Nikitov",
       subtitle: "ICU Ventures, Director",
       linkedin: 'https://www.linkedin.com/in/roman-nikitov-1b707b2/',

@@ -182,6 +182,7 @@ export default function Agenda({ id }) {
       speakers: <>
         <br/>
         <span>Dr hab. Lukasz Gasiński, Rymarz Zdort Maruta</span><br/>
+        <span>Roman Nikitov, ICU Ventures</span><br/>
       </>,
     },
     {
