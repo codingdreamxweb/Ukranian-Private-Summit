@@ -38,7 +38,7 @@ import Konstantin_Magaletskyi from "@/app/assets/img/speakers/Konstantin_Magalet
 import Vitali_Laptenok from "@/app/assets/img/speakers/Vitali_Laptenok.jpg";
 import Galyna_Isakiv from "@/app/assets/img/speakers/Galyna_Isakiv.JPG";
 import Secret_Speaker from "@/app/assets/img/speakers/Secret_Speaker.jpg";
-import Tony_Housh from "@/app/assets/img/speakers/Tony_Housh.jpeg";
+import Marek_Moravec from "@/app/assets/img/speakers/Marek_Moravec.jpg";
 
 
 import vector from "@/app/assets/img/speakers/vector.svg";
@@ -222,13 +222,6 @@ export default function Speakers({ id }) {
       linkedin: 'https://www.linkedin.com/in/%C5%82ukasz-gasi%C5%84ski-29419883/',
     },
     {
-      img: Tony_Housh,
-      stage: "Wrap-up",
-      title: "Tony Housh",
-      subtitle: "American Chamber of Commerce in Poland, Chairman of the Board of Directors",
-      linkedin: 'https://www.linkedin.com/in/tony-housh-20a6971/',
-    },
-    {
       img: Sandra_Golbreich,
       stage: "Venture Capital",
       title: "Sandra Golbreich",
@@ -262,6 +255,13 @@ export default function Speakers({ id }) {
       title: "Lukasz Dziekonski",
       subtitle: "Montis Capital, CEO and the Managing Partner",
       linkedin: 'https://www.linkedin.com/in/lukasz-dziekonski-331513/',
+    },
+    {
+      img: Marek_Moravec,
+      stage: "Venture Capital",
+      title: "Marek Moravec",
+      subtitle: "N1, Founder & Managing Director",
+      linkedin: 'https://www.linkedin.com/in/marekmoravec/',
     },
     {
       img: Victor_Koptenkov,

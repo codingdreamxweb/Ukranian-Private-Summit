@@ -121,6 +121,7 @@ export default function Agenda({ id }) {
       <span>Roman Nikitov, ICU Ventures</span><br />
       <span>Lukasz Dziekonski, Montis Capital</span><br />
       <span>Sandra Golbreich, Baltic Sandbox Ventures</span><br />
+      <span>Marek Moravec, N1</span><br />
       </>,
     },
     {
@@ -151,12 +152,12 @@ export default function Agenda({ id }) {
       time: "15.40",
       title: "Ukrainian Investment community",
       description:
-        "Presentation of Ukrainian investment funds seeking to attract investments from Polish and EU investors; their portfolio and strategies.",
+        "Ukrainian investment funds and their vision. Current investments, trends, perspectives, cases and insights.",
       speakers: <>
       <br/>
       <span>Dmytro Kuzmenko, UVCA (moderator)</span><br/>
       <span>Konstantin Magaletskyi, Green Recovery Fund/SD Capital</span><br/>
-      <span>Vitali Laptenok, "Flyer One Ventures</span><br/>
+      <span>Vitali Laptenok, Flyer One Ventures</span><br/>
       <span>Galyna Isakiv, SID Venture Partners</span><br/>
       </>,
     },
@@ -181,7 +182,6 @@ export default function Agenda({ id }) {
       speakers: <>
         <br/>
         <span>Dr hab. Lukasz Gasiński, Rymarz Zdort Maruta</span><br/>
-        <span>Tony Housh, American Chamber of Commerce in Poland</span>
       </>,
     },
     {
