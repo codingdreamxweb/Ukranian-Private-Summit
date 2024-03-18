@@ -34,10 +34,11 @@ export default function Agenda({ id }) {
       ),
       speakers: <>
         <br/>
-        <span>Andriy Kolodiuk, UVCA Chairman of the Board (moderator)</span><br/>
+        <span>Andriy Kolodyuk, UVCA Chairman of the Board (moderator)</span><br/>
         <span>Michal Kramarz, Google Campus</span><br/>
         <span>Paweł Rymarz, Rymarz Zdort Maruta</span><br/>
         <span>Keith Chapman, Freshfields Bruckhaus Deringer</span><br/>
+        <span>Joel Wajsberg, EIF</span><br/>
       </>,
     },
     {
@@ -142,10 +143,10 @@ export default function Agenda({ id }) {
       speakers: <>
         <br/>
         <span>Tatiana Goncharenko, Founders League (moderator)</span><br/>
-        <span>Mikolaj Firlej, Expedition Fund</span><br/>
         <span>Jan-Erik Saarinen, Double Tap Investments</span><br/>
         <span>Denys Gurak, MITS Capital</span><br/>
-        <span>Viktorija Trimbel, Coinvest Capital</span>
+        <span>Viktorija Trimbel, Coinvest Capital</span><br/>
+        <span>Stanisław Kastory, CExpedition Fund</span><br/>
       </>,
     },
     {

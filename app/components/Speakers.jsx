@@ -4,7 +4,6 @@ import Image from "next/image";
 import Kateryna_Glazkova from "@/app/assets/img/speakers/Kateryna_Glazkova.jpg";
 import Jacek_Chwedoruk from "@/app/assets/img/speakers/Jacek_Chwedoruk.jpg";
 import Tatiana_Goncharenko from "@/app/assets/img/speakers/Tatiana_Goncharenko.jpg";
-import Mikolaj_Firlej from "@/app/assets/img/speakers/Mikolaj_Firlej.jpg";
 import Dmytro_Kuzmenko from "@/app/assets/img/speakers/Dmytro_Kuzmenko.jpg";
 import Roman_Nikitov from "@/app/assets/img/speakers/Roman_Nikitov.jpg";
 import Ruslan_Furtas from "@/app/assets/img/speakers/Ruslan_Furtas.jpg";
@@ -39,6 +38,8 @@ import Vitali_Laptenok from "@/app/assets/img/speakers/Vitali_Laptenok.jpg";
 import Galyna_Isakiv from "@/app/assets/img/speakers/Galyna_Isakiv.JPG";
 import Secret_Speaker from "@/app/assets/img/speakers/Secret_Speaker.jpg";
 import Marek_Moravec from "@/app/assets/img/speakers/Marek_Moravec.jpg";
+import Joel_Wajsberg from "@/app/assets/img/speakers/Joel_Wajsberg.jpg";
+import Stanisław_Kastory from "@/app/assets/img/speakers/Stanisław_Kastory.jpg";
 
 
 import vector from "@/app/assets/img/speakers/vector.svg";
@@ -103,11 +104,11 @@ export default function Speakers({ id }) {
       linkedin: 'https://www.linkedin.com/in/tetiana-honcharenko-91088023/',
     },
     {
-      img: Mikolaj_Firlej,
+      img: Stanisław_Kastory,
       stage: "Miltech in Ukraine",
-      title: "Mikolaj Firlej",
+      title: "Stanisław Kastory",
       subtitle: "Expedition Fund, Co-founder & GP",
-      linkedin: 'https://www.linkedin.com/in/mikolaj-firlej-508b6a65/',
+      linkedin: 'https://www.linkedin.com/in/stanis%C5%82aw-kastory-b9458250/',
     },
     {
       img: Jan_Erik_Saarinen,
@@ -171,6 +172,13 @@ export default function Speakers({ id }) {
       title: "Andriy Kolodyuk",
       subtitle: "UVCA, Chairman of the Board",
       linkedin: 'https://www.linkedin.com/in/andkol/',
+    },
+    {
+      img: Joel_Wajsberg,
+      stage: "Welcome speech",
+      title: "Joel Wajsberg",
+      subtitle: "EIF, PE Mandate Officer",
+      linkedin: 'https://www.linkedin.com/in/joelwajsberg/',
     },
     {
       img: Anna_Wnuk,
