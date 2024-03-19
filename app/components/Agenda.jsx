@@ -146,7 +146,7 @@ export default function Agenda({ id }) {
         <span>Jan-Erik Saarinen, Double Tap Investments</span><br/>
         <span>Denys Gurak, MITS Capital</span><br/>
         <span>Viktorija Trimbel, Coinvest Capital</span><br/>
-        <span>Stanisław Kastory, CExpedition Fund</span><br/>
+        <span>Stanisław Kastory, Expedition Fund</span><br/>
       </>,
     },
     {
