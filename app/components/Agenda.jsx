@@ -108,7 +108,7 @@ export default function Agenda({ id }) {
       <span>Jacek Chwedoruk, Rothschild & Co.</span><br />
       <span>Ruslan Furtas, Horizon Capital</span><br />
       <span>Andrii Nosok, Dragon Capital</span><br />
-      <span>Paweł Szrederk, Bain & Company</span><br />
+      <span>Paweł Szreder, Bain & Company</span><br />
       </>,
     },
     {

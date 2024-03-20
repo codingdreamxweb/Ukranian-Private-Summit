@@ -218,8 +218,8 @@ export default function Speakers({ id }) {
     {
       img: Paweł_Szreder,
       stage: "M&A panel",
-      title: "Paweł Szrederk",
-      subtitle: "Bain & Company, Partner, Partner",
+      title: "Paweł Szreder",
+      subtitle: "Bain & Company, Partner",
       linkedin: 'https://www.linkedin.com/in/pawel-szreder/',
     },
     {
