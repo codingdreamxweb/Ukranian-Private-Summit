@@ -40,6 +40,7 @@ import Secret_Speaker from "@/app/assets/img/speakers/Secret_Speaker.jpg";
 import Marek_Moravec from "@/app/assets/img/speakers/Marek_Moravec.jpg";
 import Joel_Wajsberg from "@/app/assets/img/speakers/Joel_Wajsberg.jpg";
 import Stanisław_Kastory from "@/app/assets/img/speakers/Stanisław_Kastory.jpg";
+import Mariusz_Adamski from "@/app/assets/img/speakers/Mariusz_Adamski.jpg";
 
 
 import vector from "@/app/assets/img/speakers/vector.svg";
@@ -258,10 +259,10 @@ export default function Speakers({ id }) {
       linkedin: 'https://www.linkedin.com/in/viktorijatrimbel/',
     },
     {
-      img: Łukasz_Dziekoński,
+      img: Mariusz_Adamski,
       stage: "Venture Capital",
-      title: "Lukasz Dziekonski",
-      subtitle: "Montis Capital, CEO and the Managing Partner",
+      title: "Mariusz Adamski",
+      subtitle: "ff Venture Capital, Partner",
       linkedin: 'https://www.linkedin.com/in/lukasz-dziekonski-331513/',
     },
     {

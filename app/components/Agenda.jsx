@@ -120,7 +120,7 @@ export default function Agenda({ id }) {
       <br/>
       <span>Lukasz Wawak, Polish Ukrainian Startup Bridge (moderator)</span><br />
       <span>Roman Nikitov, ICU Ventures</span><br />
-      <span>Lukasz Dziekonski, Montis Capital</span><br />
+      <span>Mariusz Adamski, ff Venture Capital</span><br />
       <span>Sandra Golbreich, Baltic Sandbox Ventures</span><br />
       <span>Marek Moravec, N1</span><br />
       </>,
@@ -156,7 +156,7 @@ export default function Agenda({ id }) {
         "Ukrainian investment funds and their vision. Current investments, trends, perspectives, cases and insights.",
       speakers: <>
       <br/>
-      <span>Dmytro Kuzmenko, UVCA (moderator)</span><br/>
+      <span>Roman Nikitov, ICU Venture (moderator)</span><br/>
       <span>Konstantin Magaletskyi, Green Recovery Fund/SD Capital</span><br/>
       <span>Vitali Laptenok, Flyer One Ventures</span><br/>
       <span>Galyna Isakiv, SID Venture Partners</span><br/>
